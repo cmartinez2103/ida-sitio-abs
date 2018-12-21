@@ -1,0 +1,17 @@
+<div class="sidebar" data-sticky data-offset_top="15">
+   <h3 class="sidebar__title">Sede First</h3>
+   <ul class="child-list">
+      <li class="child-list__item current">
+         <a href="#top" title="Ir a Inicio">Horario de Cursos</a>
+      </li>
+      <li class="child-list__item">
+         <a href="#top" title="Ir a Inicio">Atención a apoderados</a>
+      </li>
+      <li class="child-list__item">
+         <a href="#top" title="Ir a Inicio">Calendario anual</a>
+      </li>
+      <li class="child-list__item">
+         <a href="#top" title="Ir a Inicio">Lectura First</a>
+      </li>
+   </ul>
+</div>

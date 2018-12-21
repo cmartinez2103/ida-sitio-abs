@@ -1,0 +1,94 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <div class="container">
+      <ul class="breadcrumbs">
+         <li class="breadcrumbs__item"><a href="">Inicio</a></li>
+         <li class="breadcrumbs__item current">Resultados de búsqueda</li>
+      </ul>
+   </div>
+   <section class="horizon--inner">
+		<div class="container">
+         <div class="row">
+            <div class="gr-8 gr-6@tablet gr-12@phablet">
+               <div class="horizon__intro search">
+      				<h2 class="horizon__title horizon__title--inner">RESULTADOS DE BÚSQUEDA</h2>
+                  <div class="horizon__excerpt">
+                     <p>Se han encontrado <strong>10 resultados</strong> para tu búsqueda <em>“sede first”</em>.</p>
+                  </div>
+      			</div>
+               <article class="box box--post box--horizontal">
+                  <figure class="box__figure">
+                     <img src="http://unsplash.it/203/114/" class="cover-img" alt="title" />
+                  </figure>
+                  <div class="box__body">
+                     <div class="box__meta">
+                        <p>NOTICIA, LIGA DEPORTIVA</p>
+                     </div>
+                     <h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu…</p>
+                     </div>
+                  </div>
+               </article>
+               <article class="box box--post box--horizontal">
+                  <div class="box__body">
+                     <div class="box__meta">
+                        <p>NOTICIA, LIGA DEPORTIVA</p>
+                     </div>
+                     <h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu…</p>
+                     </div>
+                  </div>
+               </article>
+               <article class="box box--post box--horizontal">
+                  <figure class="box__figure">
+                     <img src="http://unsplash.it/203/114/" class="cover-img" alt="title" />
+                  </figure>
+                  <div class="box__body">
+                     <div class="box__meta">
+                        <p>NOTICIA, LIGA DEPORTIVA</p>
+                     </div>
+                     <h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu…</p>
+                     </div>
+                  </div>
+               </article>
+               <article class="box box--post box--horizontal">
+                  <figure class="box__figure">
+                     <img src="http://unsplash.it/203/114/" class="cover-img" alt="title" />
+                  </figure>
+                  <div class="box__body">
+                     <div class="box__meta">
+                        <p>NOTICIA, LIGA DEPORTIVA</p>
+                     </div>
+                     <h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu…</p>
+                     </div>
+                  </div>
+               </article>
+               <article class="box box--post box--horizontal">
+                  <figure class="box__figure">
+                     <img src="http://unsplash.it/203/114/" class="cover-img" alt="title" />
+                  </figure>
+                  <div class="box__body">
+                     <div class="box__meta">
+                        <p>NOTICIA, LIGA DEPORTIVA</p>
+                     </div>
+                     <h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu…</p>
+                     </div>
+                  </div>
+               </article>
+            </div>
+            <aside class="gr-4 gr-6@tablet gr-12@phablet">
+               <!--#include virtual="/partials/sidebar/sidebar-contacto-sedes.shtml" -->
+            </aside>
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

@@ -1,0 +1,52 @@
+<div class="form-parent form-parent--contacto" data-parent>
+   <form action="#" class="row" method="POST" data-module="common-form" data-validation="generic_ajax" data-parent="[data-parent]" data-submit-class="sending" autocomplete="off">
+      <div class="form-control gr-6 gr-12@small">
+         <label for="contacto-nombre" class="form-control__label">Nombre</label>
+         <input type="text" class="form-control__field" id="contacto-nombre" name="contacto-nombre" placeholder="Ingrese su nombre nombre" autocomplete="off" required data-custom-validation="onlyString" maxlength="50">
+         <p class="form-control__text">
+            Sólo caracteres alfabéticos
+         </p>
+      </div>
+      <div class="form-control gr-6 gr-12@small">
+         <label for="contacto-email" class="form-control__label">Email</label>
+         <input type="email" class="form-control__field" id="postulacion-email" name="postulacion-email" placeholder="Ingrese su email" maxlength="50" required>
+         <p class="form-control__text">
+            Debe contener el valor “@“ Ej: mimail@empresa.com
+         </p>
+      </div>
+      <div class="form-control gr-6 gr-12@small">
+         <label for="contacto-consulta" class="form-control__label">Tipo de consulta</label>
+         <select class="form-control__field form-control__field--select" name="" required>
+            <option value="">Seleccione un motivo de consulta</option>
+         </select>
+      </div>
+      <div class="form-control gr-6 gr-12@small">
+         <label for="contacto-asunto" class="form-control__label">Asunto</label>
+         <input type="text" class="form-control__field" id="postulacion-asunto" name="postulacion-asunto" placeholder="Ingrese su asunto" maxlength="50" required>
+         <p class="form-control__text">
+            Sólo caracteres alfabéticos
+         </p>
+      </div>
+      <div class="form-control gr-6 gr-12@small">
+         <label for="contacto-sede" class="form-control__label">Sede a contactar</label>
+         <select class="form-control__field form-control__field--select" name="" required>
+            <option value="">Seleccione una sede</option>
+            <option value="sede-first">Sede First</option>
+            <option value="sede-primary">Sede Primary</option>
+            <option value="sede-santa-irene">Sede Santa Irene</option>
+            <option value="sede-alcahue">Sede Alcahue</option>
+            <option value="sede-central">Sede Central</option>
+         </select>
+      </div>
+      <div class="form-control gr-12 gr-12@small">
+         <label for="contacto-mensaje" class="form-control__label">Mensaje</label>
+         <textarea name="contacto-mensaje" id="contacto-mensaje" rows="8" data-textcounter data-role="textcounter" maxlength="2000" class="form-control__field" placeholder="Ingrese su mensaje" data-autoresize></textarea>
+         <p class="form-control__text">
+            Máximo <strong data-role="countdown">2000</strong> caracteres
+         </p>
+      </div>
+      <div class="form-control">
+         <input type="submit" class="button button-input button--main " value="Enviar">
+      </div>
+   </form>
+</div>

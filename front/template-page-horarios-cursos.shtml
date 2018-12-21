@@ -1,0 +1,771 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+         <div class="row">
+            <div class="gr-2 gr-6@tablet gr-12@phablet hide@tablet" data-area-name="desktop-sidebar">
+               <div data-desktop-area="desktop-sidebar" data-mobile-area="mobile-sidebar" data-mutable="tablet-down">
+                  <!--#include virtual="/partials/sidebar/sidebar-sede.shtml" -->
+               </div>
+            </div>
+
+            <div class="gr-9 gr-10@large gr-12@tablet prefix-1 prefix-0@large">
+               <div class="horizon__intro">
+      				<h2 class="horizon__title horizon__title--inner">Horarios de cursos</h2>
+                  <div class="horizon__excerpt">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+      			</div>
+
+               <h3 class="tab__title">Primero</h3>
+               <div class="tab__group">
+                  <div class="tab__buttons row hide@tablet">
+                     <div class="gr-4" data-area-name="desktop-tab-primero-a" data-func="showTab" data-target="primero-a">
+                        <div class="tab__button" data-mutable="tablet-down" data-desktop-area="desktop-tab-primero-a" data-mobile-area="mobile-tab-primero-a">
+                           <p>1º A Morning</p>
+                        </div>
+                     </div>
+                     <div class="gr-4" data-area-name="desktop-tab-primero-b" data-func="showTab" data-target="primero-b">
+                        <div class="tab__button" data-mutable="tablet-down" data-desktop-area="desktop-tab-primero-b" data-mobile-area="mobile-tab-primero-b">
+                           <p>1º B Morning</p>
+                        </div>
+                     </div>
+                     <div class="gr-4" data-area-name="desktop-tab-primero-c" data-func="showTab" data-target="primero-c">
+                        <div class="tab__button" data-mutable="tablet-down" data-desktop-area="desktop-tab-primero-c" data-mobile-area="mobile-tab-primero-c">
+                           <p>1º C Morning</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="tab__target">
+                     <div data-area-name="mobile-tab-primero-a"></div>
+                     <div class="tab__body bg bg-light" data-tabname="primero-a">
+                        <h4>Miss: Vilma Vargas</h4>
+                        <div class="table__content">
+                           <table>
+                              <thead>
+                                 <tr>
+                                    <th>Tiempo</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>1</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>English</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                                 <tr>
+                                    <td>2</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>English</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                                 <tr>
+                                    <td>3</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>English</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                                 <tr>
+                                    <td>4</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>English</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <p class="table__caption">Horario y cupos por nivel</p>
+                           <div class="table__mensaje showb@tablet">
+                              <img src="./dist/img/iconos/icon-deslizar.svg" alt="">
+                              <span>DESPLIZA HORIZONTALMENTE PARA VER TABLA</span>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div data-area-name="mobile-tab-primero-b"></div>
+                     <div class="tab__body bg bg-light" data-tabname="primero-b">
+                        <h4 class="text-upper">Miss: Barbarita</h4>
+                        <div class="table__content">
+                           <table>
+                              <thead>
+                                 <tr>
+                                    <th>Tiempo</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>1</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>Physical Ed.</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                                 <tr>
+                                    <td>2</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                                 <tr>
+                                    <td>3</td>
+                                    <td>English</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>English</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                                 <tr>
+                                    <td>4</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>English</td>
+                                    <td>Mathematics Ed.</td>
+
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <p class="table__caption">Horario y cupos por nivel</p>
+                           <div class="table__mensaje showb@tablet">
+                              <img src="./dist/img/iconos/icon-deslizar.svg" alt="">
+                              <span>DESPLIZA HORIZONTALMENTE PARA VER TABLA</span>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div data-area-name="mobile-tab-primero-c"></div>
+                     <div class="tab__body bg bg-light" data-tabname="primero-c">
+                        <h4>Miss: Hugo</h4>
+                        <div class="table__content">
+                           <table>
+                              <thead>
+                                 <tr>
+                                    <th>Tiempo</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>1</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>English</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                                 <tr>
+                                    <td>2</td>
+                                    <td>Physical Ed.</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>English</td>
+                                 </tr>
+                                 <tr>
+                                    <td>3</td>
+                                    <td>Language and C.</td>
+                                    <td>Physical Ed.</td>
+                                    <td>English</td>
+                                    <td>English</td>
+                                    <td>Mathematics Ed.</td>
+                                 </tr>
+                                 <tr>
+                                    <td>4</td>
+                                    <td>English</td>
+                                    <td>Language and C.</td>
+                                    <td>Mathematics Ed.</td>
+                                    <td>English</td>
+                                    <td>Physical Ed.</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <p class="table__caption">Horario y cupos por nivel</p>
+                           <div class="table__mensaje showb@tablet">
+                              <img src="./dist/img/iconos/icon-deslizar.svg" alt="">
+                              <span>DESPLIZA HORIZONTALMENTE PARA VER TABLA</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+
+               <div class="tab__group">
+                  <div class="tab__buttons row hide@tablet">
+                     <div class="gr-4" data-area-name="desktop-tab-primero-d">
+                        <div class="tab__button" data-func="showTab" data-target="primero-d"  data-mutable="tablet-down" data-desktop-area="desktop-tab-primero-d" data-mobile-area="mobile-tab-primero-d">
+                           <p>1º D Morning</p>
+                        </div>
+                     </div>
+                     <div class="gr-4" data-area-name="desktop-tab-primero-e">
+                        <div class="tab__button" data-func="showTab" data-target="primero-e"  data-mutable="tablet-down" data-desktop-area="desktop-tab-primero-e" data-mobile-area="mobile-tab-primero-e">
+                           <p>1º E Morning</p>
+                        </div>
+                     </div>
+                     <div class="gr-4" data-area-name="desktop-tab-primero-f">
+                        <div class="tab__button" data-func="showTab" data-target="primero-f"  data-mutable="tablet-down" data-desktop-area="desktop-tab-primero-f" data-mobile-area="mobile-tab-primero-f">
+                           <p>1º F Morning</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab__target">
+                     <div data-area-name="mobile-tab-primero-d"></div>
+                     <div class="tab__body bg bg-light" data-tabname="primero-d">
+                        <h4>Miss: Vilma Vargas</h4>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Tiempo</th>
+                                 <th>Monday</th>
+                                 <th>Tuesday</th>
+                                 <th>Wednesday</th>
+                                 <th>Thursday</th>
+                                 <th>Friday</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p class="table__caption">Horario y cupos por nivel</p>
+                     </div>
+
+                     <div data-area-name="mobile-tab-primero-e"></div>
+                     <div class="tab__body bg bg-light" data-tabname="primero-e">
+                        <h4 class="text-upper">Miss: Barbarita</h4>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Tiempo</th>
+                                 <th>Monday</th>
+                                 <th>Tuesday</th>
+                                 <th>Wednesday</th>
+                                 <th>Thursday</th>
+                                 <th>Friday</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>Physical Ed.</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>English</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Mathematics Ed.</td>
+
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p class="table__caption">Horario y cupos por nivel</p>
+                     </div>
+
+                     <div data-area-name="mobile-tab-primero-f"></div>
+                     <div class="tab__body bg bg-light" data-tabname="primero-f">
+                     <h4>Miss: Hugo</h4>
+                     <table>
+                        <thead>
+                           <tr>
+                              <th>Tiempo</th>
+                              <th>Monday</th>
+                              <th>Tuesday</th>
+                              <th>Wednesday</th>
+                              <th>Thursday</th>
+                              <th>Friday</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>1</td>
+                              <td>Mathematics Ed.</td>
+                              <td>English</td>
+                              <td>Language and C.</td>
+                              <td>English</td>
+                              <td>Physical Ed.</td>
+                           </tr>
+                           <tr>
+                              <td>2</td>
+                              <td>Physical Ed.</td>
+                              <td>Mathematics Ed.</td>
+                              <td>English</td>
+                              <td>Language and C.</td>
+                              <td>English</td>
+                           </tr>
+                           <tr>
+                              <td>3</td>
+                              <td>Language and C.</td>
+                              <td>Physical Ed.</td>
+                              <td>English</td>
+                              <td>English</td>
+                              <td>Mathematics Ed.</td>
+                           </tr>
+                           <tr>
+                              <td>4</td>
+                              <td>English</td>
+                              <td>Language and C.</td>
+                              <td>Mathematics Ed.</td>
+                              <td>English</td>
+                              <td>Physical Ed.</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <p class="table__caption">Horario y cupos por nivel</p>
+                  </div>
+                  </div>
+               </div>
+
+               <h3 class="tab__title">Segundo</h3>
+               <div class="tab__group">
+                  <div class="tab__buttons row hide@tablet">
+                     <div class="gr-4" data-area-name="desktop-tab-segundo-a">
+                        <div class="tab__button" data-func="showTab" data-target="segundo-a"  data-target="segundo-a"  data-mutable="tablet-down" data-desktop-area="desktop-tab-segundo-a" data-mobile-area="mobile-tab-segundo-a">
+                           <p>2º A Morning</p>
+                        </div>
+                     </div>
+                     <div class="gr-4" data-area-name="desktop-tab-segundo-b">
+                        <div class="tab__button" data-func="showTab" data-target="segundo-b"  data-target="segundo-b"  data-mutable="tablet-down" data-desktop-area="desktop-tab-segundo-b" data-mobile-area="mobile-tab-segundo-b">
+                           <p>2º B Morning</p>
+                        </div>
+                     </div>
+                     <div class="gr-4" data-area-name="desktop-tab-segundo-c">
+                        <div class="tab__button" data-func="showTab" data-target="segundo-c"  data-target="segundo-c"  data-mutable="tablet-down" data-desktop-area="desktop-tab-segundo-c" data-mobile-area="mobile-tab-segundo-c">
+                           <p>2º C Morning</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab__target">
+                     <div data-area-name="mobile-tab-segundo-a"></div>
+                     <div class="tab__body bg bg-light" data-tabname="segundo-a">
+                        <h4>Miss: Vilma Vargas</h4>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Tiempo</th>
+                                 <th>Monday</th>
+                                 <th>Tuesday</th>
+                                 <th>Wednesday</th>
+                                 <th>Thursday</th>
+                                 <th>Friday</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p class="table__caption">Horario y cupos por nivel</p>
+                     </div>
+
+                     <div data-area-name="mobile-tab-segundo-b"></div>
+                     <div class="tab__body bg bg-light" data-tabname="segundo-b">
+                        <h4 class="text-upper">Miss: Barbarita</h4>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Tiempo</th>
+                                 <th>Monday</th>
+                                 <th>Tuesday</th>
+                                 <th>Wednesday</th>
+                                 <th>Thursday</th>
+                                 <th>Friday</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>Physical Ed.</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>English</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Mathematics Ed.</td>
+
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p class="table__caption">Horario y cupos por nivel</p>
+                     </div>
+
+                     <div data-area-name="mobile-tab-segundo-c"></div>
+                     <div class="tab__body bg bg-light" data-tabname="segundo-c">
+                        <h4>Miss: Hugo</h4>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Tiempo</th>
+                                 <th>Monday</th>
+                                 <th>Tuesday</th>
+                                 <th>Wednesday</th>
+                                 <th>Thursday</th>
+                                 <th>Friday</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Physical Ed.</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>Language and C.</td>
+                                 <td>Physical Ed.</td>
+                                 <td>English</td>
+                                 <td>English</td>
+                                 <td>Mathematics Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p class="table__caption">Horario y cupos por nivel</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="tab__group">
+                  <div class="tab__buttons row hide@tablet">
+                     <div class="gr-4" data-area-name="desktop-tab-segundo-d">
+                        <div class="tab__button" data-func="showTab" data-target="segundo-d"  data-target="segundo-d"  data-mutable="tablet-down" data-desktop-area="desktop-tab-segundo-d" data-mobile-area="mobile-tab-segundo-d">
+                           <p>2º D Morning</p>
+                        </div>
+                     </div>
+                     <div class="gr-4" data-area-name="desktop-tab-segundo-e">
+                        <div class="tab__button" data-func="showTab" data-target="segundo-e"  data-target="segundo-e"  data-mutable="tablet-down" data-desktop-area="desktop-tab-segundo-e" data-mobile-area="mobile-tab-segundo-e">
+                           <p>2º E </p>
+                        </div>
+                     </div>
+                     <div class="gr-4" data-area-name="desktop-tab-segundo-f">
+                        <div class="tab__button" data-func="showTab" data-target="segundo-f"  data-target="segundo-f"  data-mutable="tablet-down" data-desktop-area="desktop-tab-segundo-f" data-mobile-area="mobile-tab-segundo-f">
+                           <p>2º F Morning</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="tab__target">
+                     <div data-area-name="mobile-tab-segundo-d"></div>
+                     <div class="tab__body bg bg-light" data-tabname="segundo-d">
+                        <h4>Miss: Vilma Vargas</h4>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Tiempo</th>
+                                 <th>Monday</th>
+                                 <th>Tuesday</th>
+                                 <th>Wednesday</th>
+                                 <th>Thursday</th>
+                                 <th>Friday</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p class="table__caption">Horario y cupos por nivel</p>
+                     </div>
+
+                     <div data-area-name="mobile-tab-segundo-e"></div>
+                     <div class="tab__body bg bg-light" data-tabname="segundo-e">
+                        <h4 class="text-upper">Miss: Barbarita</h4>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Tiempo</th>
+                                 <th>Monday</th>
+                                 <th>Tuesday</th>
+                                 <th>Wednesday</th>
+                                 <th>Thursday</th>
+                                 <th>Friday</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>Physical Ed.</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>English</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Mathematics Ed.</td>
+
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p class="table__caption">Horario y cupos por nivel</p>
+                     </div>
+
+                     <div data-area-name="mobile-tab-segundo-f"></div>
+                     <div class="tab__body bg bg-light" data-tabname="segundo-f">
+                        <h4>Miss: Hugo</h4>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Tiempo</th>
+                                 <th>Monday</th>
+                                 <th>Tuesday</th>
+                                 <th>Wednesday</th>
+                                 <th>Thursday</th>
+                                 <th>Friday</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td>Physical Ed.</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>English</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td>Language and C.</td>
+                                 <td>Physical Ed.</td>
+                                 <td>English</td>
+                                 <td>English</td>
+                                 <td>Mathematics Ed.</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td>English</td>
+                                 <td>Language and C.</td>
+                                 <td>Mathematics Ed.</td>
+                                 <td>English</td>
+                                 <td>Physical Ed.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <p class="table__caption">Horario y cupos por nivel</p>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+            <div class="gr-12@small gr-12@tablet showb@tablet" data-area-name="mobile-sidebar"></div>
+
+
+            <div class="prueba__button" data-func="tabCollapse" data-target="prueba">prueba uno</div>
+            <div class="prueba__button" data-func="tabCollapse" data-target="pruebados">prueba dos</div>
+
+            <div class="prueba__body" data-tabname="prueba">PRUEBA UNO Natus minus ipsum modi error quae ea vitae totam fuga, deleniti!</div>
+            <div class="prueba__body"  data-tabname="pruebados">PRUEBA DOS Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum accusantium vitae, dolorem ratione architecto
+               assumenda natus necessitatibus ab nihil. Natus minus ipsum modi error quae ea vitae totam fuga, deleniti!</div>
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

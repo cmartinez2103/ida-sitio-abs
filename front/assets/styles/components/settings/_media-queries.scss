@@ -1,0 +1,126 @@
+////////////////////////////////////////
+//////////////////////////////////////// Breakpoints & sizes
+////////////////////////////////////////
+
+$huge:      90rem !default;      // ~1440px
+$desktop:   80rem !default;      // ~1280px
+$container: 71rem !default;      // ~1136px
+$large:     64rem !default;      // ~1024px
+$book:      56.25rem !default;   // ~900px
+$medium:    50rem !default;      // ~800px
+$tablet:    48rem !default;      // ~768px
+$small:     40rem !default;      // ~640px
+$phablet:   30rem !default;      // ~480px
+$phone :    20rem !default;      // ~320px
+
+$medias_map: (
+   huge: $huge,
+   desktop: $desktop,
+   large: $large,
+   book: $book,
+   medium: $medium,
+   tablet: $tablet,
+   small: $small,
+   phablet: $phablet,
+   phone: $phone
+);
+
+////////////////////////////////////////
+//////////////////////////////////////// Media/Element Queries
+////////////////////////////////////////
+//use
+//@include media (mq-down){}
+//@include media (mq-up){}
+
+@mixin media( $type) {
+   @if $type==huge-up {
+      @media only screen and (min-width: $huge) {
+         @content;
+      }
+   }
+   @if $type==huge-down {
+      @media only screen and (max-width: $huge) {
+         @content;
+      }
+   }
+   @if $type==desktop-up {
+      @media only screen and (min-width: $desktop) {
+         @content;
+      }
+   }
+   @if $type==desktop-down {
+      @media only screen and (max-width: $desktop) {
+         @content;
+      }
+   }
+   @if $type==large-up {
+      @media only screen and (min-width: $large) {
+         @content;
+      }
+   }
+   @if $type==large-down {
+      @media only screen and (max-width: $large) {
+         @content;
+      }
+   }
+   @if $type==book-up {
+      @media only screen and (min-width: $book) {
+         @content;
+      }
+   }
+   @if $type==book-down {
+      @media only screen and (max-width: $book) {
+         @content;
+      }
+   }
+   @if $type==medium-up {
+      @media only screen and (min-width: $medium) {
+         @content;
+      }
+   }
+   @if $type==medium-down {
+      @media only screen and (max-width: $medium) {
+         @content;
+      }
+   }
+   @if $type==tablet-up {
+      @media only screen and (min-width: $tablet) {
+         @content;
+      }
+   }
+   @if $type==tablet-down {
+      @media only screen and (max-width: $tablet) {
+         @content;
+      }
+   }
+   @if $type==small-up {
+      @media only screen and (min-width: $small) {
+         @content;
+      }
+   }
+   @if $type==small-down {
+      @media only screen and (max-width: $small) {
+         @content;
+      }
+   }
+   @if $type==phablet-up {
+      @media only screen and (min-width: $phablet) {
+         @content;
+      }
+   }
+   @if $type==phablet-down {
+      @media only screen and (max-width: $phablet) {
+         @content;
+      }
+   }
+   @if $type==phone-up {
+      @media only screen and (min-width: $phone) {
+         @content;
+      }
+   }
+   @if $type==phone-down {
+      @media only screen and (max-width: $phone) {
+         @content;
+      }
+   }
+}

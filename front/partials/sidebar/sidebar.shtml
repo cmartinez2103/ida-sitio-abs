@@ -1,0 +1,28 @@
+<div class="sidebar" data-sticky data-offset_top="15">
+   <h3 class="sidebar__title">Quiénes Somos</h3>
+   <ul class="child-list">
+      <li class="child-list__item">
+         <a href="#top" title="Ir a Inicio">Somos parte de Cognita</a>
+      </li>
+      <li class="child-list__item">
+         <a href="#top" title="Ir a Inicio">Misión y visión</a>
+      </li>
+      <li class="child-list__item current">
+         <a href="#top" title="Ir a Inicio">Historia de Amarican British</a>
+      </li>
+      <li class="child-list__item">
+         <a href="#top" title="Ir a Inicio">Somos parte de Cognita</a>
+      </li>
+      <li class="child-list__item">
+         <a href="#" title="Ir a">Equipo del Colegio</a>
+         <ul class="child-list__sub">
+            <li class="child-list__item"><a href="">Directivos</a></li>
+            <li class="child-list__item current"> <a href="">Profesores Jefes</a></li>
+            <li class="child-list__item"><a href="">Administrativos</a></li>
+         </ul>
+      </li>
+      <li class="child-list__item">
+         <a href="#top" title="Ir a Inicio">Memorias Anuales</a>
+      </li>
+   </ul>
+</div>

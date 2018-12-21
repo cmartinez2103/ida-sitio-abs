@@ -1,0 +1,87 @@
+@media print{
+	body a[href]:after {
+		content: none !important;
+	}
+	.gr-9.gr-8\@large.gr-12\@midlarge,
+	.gr-8.gr-12\@midlarge,
+	.gr-9.gr-12\@midlarge,
+	.gr-7.gr-8\@large.gr-12\@midlarge,{
+		width: 100% !important;
+		max-width: 100% !important;
+		flex-basis: 100% !important;
+		margin: 0;
+	}
+	.gr-3.gr-4\@large.gr-12\@midlarge,
+	.gr-4.gr-12\@midlarge,
+	.nav-bar__body,
+	.top-bar,
+	.single__iframe,
+	.footer-bar,
+	.hover-menu,
+	.share,
+	.nav-bar__search,
+	.gr-3.hide\@midlarge,
+	.gr-5.gr-4\@large.gr-12\@midlarge.no-gutter-at-midlarge,
+	.horizon.full
+	{
+		display: none!important;
+	}
+	.single__collapse__body, .collapse__body{
+		display: block!important;
+	}
+	.nav-bar__search__submit,
+	.nav-bar__search__holder,
+	.sidebar{
+		display: none!important;
+	}
+	.gr-8{
+		width: 100% !important;
+		max-width: 100% !important;
+		flex-basis: 100% !important;
+		margin: 0;
+	}
+	.horizon{
+		&.overlay{
+			background: white;
+			background-image: none !important;
+			.horizon{
+				&__veil{
+					background: transparent;
+					opacity: 1;
+				}
+				&__body{
+					padding: 2rem 0;
+					display: block;
+					margin: 0;
+					display: block;
+					text-align: left;
+				}
+			}
+		}
+	}
+	blockquote{
+		font-style: normal!important;
+		font-family: $font_serif!important;
+		em{
+			font-style: normal!important;
+		}
+	}
+}
+
+
+pre {
+   white-space: pre-wrap;
+   /* css-3 */
+   white-space: -moz-pre-wrap;
+   /* Mozilla, since 1999 */
+   white-space: -pre-wrap;
+   /* Opera 4-6 */
+   white-space: -o-pre-wrap;
+   /* Opera 7 */
+   word-wrap: break-word;
+   /* Internet Explorer 5.5+ */
+   background: dimgray;
+   color: white;
+   padding: 1em;
+   font-size: 14px;
+}

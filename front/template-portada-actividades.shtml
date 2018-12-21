@@ -1,0 +1,155 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <!--#include virtual="/partials/header-portada.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Seleeciones deportivas</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Ligas deportivas</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Talleres</h4>
+						</div>
+					</article>
+				</div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Seleeciones deportivas</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Ligas deportivas</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Talleres</h4>
+						</div>
+					</article>
+				</div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Seleeciones deportivas</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Ligas deportivas</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Talleres</h4>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+   <section class="horizon">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Sigue la actividad de nuestros talleres</h2>
+				<a href="#" class="link link--more rigth big">ver más</a>
+			</div>
+			<div class="row">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/557/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>Seded First</p><p>Fotos Oficianles</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/557/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>American British</p><p>Evento Anual</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/557/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>Sede</p><p>Subcategoría</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<!--#include virtual="_footer.shtml" -->

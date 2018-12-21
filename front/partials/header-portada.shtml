@@ -1,0 +1,22 @@
+<div class="header header__portada">
+   <div class="container">
+      <div class="gr-12@small gr-12@tablet showb@tablet" data-area-name="mobile-excerpt"></div>
+
+      <figure class="header__image">
+         <img src="http://unsplash.it/780/515/" alt="" class="cover-img">
+      </figure>
+      <div class="header__body">
+         <div data-area-name="desktop-excerpt">
+            <div class="box header__box" data-desktop-area="desktop-excerpt" data-mobile-area="mobile-excerpt" data-mutable="tablet-down">
+               <h1 class="header__title">Título Portada</h1>
+               <span class="header__meta">Primer y Segundo Básico</span>
+            </div>
+
+         </div>
+         <div class="header__excerpt">
+            <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                  Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+         </div>
+      </div>
+   </div>
+</div>

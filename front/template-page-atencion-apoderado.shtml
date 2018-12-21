@@ -1,0 +1,65 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+         <div class="row">
+            <div class="gr-2 gr-6@tablet hide@tablet" data-area-name="desktop-sidebar">
+               <div data-desktop-area="desktop-sidebar" data-mobile-area="mobile-sidebar" data-mutable="tablet-down">
+                  <!--#include virtual="/partials/sidebar/sidebar.shtml" -->
+               </div>
+            </div>
+            <div class="gr-9 gr-10@large gr-12@tablet prefix-1 prefix-0@large">
+               <div class="horizon__intro">
+      				<h2 class="horizon__title horizon__title--page">Atención a apoderados</h2>
+                  <div class="horizon__excerpt">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+      			</div>
+               <div class="table__content">
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>Profesor (teacher)</th>
+                           <th>Curso (grade)</th>
+                           <th>Friday</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Daniela Arce</td>
+                           <td>PG_A</td>
+                           <td>Lunes 9:35 - 10:15 <br> Miércoles 9:35 - 10:15</td>
+                        </tr>
+                        <tr>
+                           <td>Tamara Donoso</td>
+                           <td>PG_B</td>
+                           <td>Lunes 9:35 - 10:15 <br> Miércoles 9:35 - 10:15</td>
+                        </tr>
+                        <tr>
+                           <td>Camila Naveas</td>
+                           <td>PG_C</td>
+                           <td>Lunes 9:35 - 10:15 <br> Miércoles 9:35 - 10:15</td>
+                        </tr>
+                        <tr>
+                           <td>Marjorie León</td>
+                           <td>PG_C</td>
+                           <td>Lunes 9:35 - 10:15 <br> Miércoles 9:35 - 10:15</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <p class="table__caption">Horario y cupos por nivel</p>
+                  <div class="table__mensaje showb@tablet">
+                     <img src="./dist/img/iconos/icon-deslizar.svg" alt="">
+                     <span>DESPLIZA HORIZONTALMENTE PARA VER TABLA</span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="gr-12@small gr-12@tablet showb@tablet" data-area-name="mobile-sidebar"></div>
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

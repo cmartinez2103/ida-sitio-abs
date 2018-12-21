@@ -1,0 +1,180 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <!--#include virtual="/partials/header-portada.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+			<div class="row" data-equalize="target" data-mq="phablet-down" data-eq-target=".box">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Futbolito mixto</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Basketball</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Cheerdance Pomps</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Taekwondo mixto</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Natación infantil mixto</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Hockey patines</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Gimnasia coreográfica</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Patinaje artístico mixto</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Taller instrumental</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Coro</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Pintura y artes</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="page.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+                        <a href="page.shtml">Catequesis</a>
+                     </h4>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<!--#include virtual="_footer.shtml" -->

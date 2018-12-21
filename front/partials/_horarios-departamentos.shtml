@@ -1,0 +1,105 @@
+<section class="horizon">
+   <div class="container">
+      <div class="horizon__intro horizon__intro--center">
+         <h2 class="horizon__title">Horarios y departamentos</h2>
+      </div>
+      <div class="row" data-equalize="target" data-mq="phablet-down"  data-eq-target=".box">
+         <div class="gr-3 gr-6@medium gr-12@small">
+            <article class="box box--card">
+               <span class="box__icon reloj flex-left"></span>
+               <div class="box__body">
+                  <h4 class="box__title dark">
+                     <a href="">Horario de cursos</a>
+                  </h4>
+                  <div class="box__excerpt">
+                     <p>Lorem ipsum dolor sit amet consectetur scing elit senectus.
+                     amet consectetur adipiscing elit senectus.</p>
+                  </div>
+                  <div class="box__action">
+                     <select class="form-control__field form-control__field--select" name="">
+                        <option value="">Seleccione una sede</option>
+                        <option value="template-portada-sedes.shtml"><a href="template-page-horarios.shtml">Sede First</a></option>
+                        <option value=""><a href="">Sede Primary</a></option>
+                        <option value=""><a href="">Sede Santa Irene</a></option>
+                        <option value=""><a href="">Sede Alcahue</a></option>
+                        <option value=""><a href="">Sede Central</a></option>
+                     </select>
+                  </div>
+               </div>
+            </article>
+         </div>
+         <div class="gr-3 gr-6@medium gr-12@small">
+            <article class="box box--card">
+               <span class="box__icon people flex-left"></span>
+               <div class="box__body">
+                  <h4 class="box__title dark">
+                     <a href="">Horario de atención de apoderados</a>
+                  </h4>
+                  <div class="box__excerpt">
+                     <p>Lorem ipsum dolor sit amet consectetur scing elit senectus.
+                     amet consectetur adipiscing elit senectus.</p>
+                  </div>
+                  <div class="box__action">
+                     <select class="form-control__field form-control__field--select" name="">
+                        <option value="">Seleccione una sede</option>
+                        <option value=""><a href="template-page-horarios.shtml">Sede First</a></option>
+                        <option value=""><a href="">Sede Primary</a></option>
+                        <option value=""><a href="">Sede Santa Irene</a></option>
+                        <option value=""><a href="">Sede Alcahue</a></option>
+                        <option value=""><a href="">Sede Central</a></option>
+                     </select>
+                  </div>
+               </div>
+            </article>
+         </div>
+         <div class="gr-3 gr-6@medium gr-12@small">
+            <article class="box box--card">
+               <span class="box__icon calendario flex-left"></span>
+               <div class="box__body">
+                  <h4 class="box__title dark">
+                     <a href="">Calendario anual</a>
+                  </h4>
+                  <div class="box__excerpt">
+                     <p>Lorem ipsum dolor sit amet consectetur scing elit senectus.
+                     amet consectetur adipiscing elit senectus.</p>
+                  </div>
+                  <div class="box__action">
+                     <select class="form-control__field form-control__field--select" name="">
+                        <option value="">Seleccione una sede</option>
+                        <option value=""><a href="template-page-horarios.shtml">Sede First</a></option>
+                        <option value=""><a href="">Sede Primary</a></option>
+                        <option value=""><a href="">Sede Santa Irene</a></option>
+                        <option value=""><a href="">Sede Alcahue</a></option>
+                        <option value=""><a href="">Sede Central</a></option>
+                     </select>
+                  </div>
+               </div>
+            </article>
+         </div>
+         <div class="gr-3 gr-6@medium gr-12@small">
+            <article class="box box--card">
+               <span class="box__icon departamento flex-left"></span>
+               <div class="box__body">
+                  <h4 class="box__title dark">
+                     <a href="">Departamentos</a>
+                  </h4>
+                  <div class="box__excerpt">
+                     <p>Lorem ipsum dolor sit amet consectetur scing elit senectus.
+                     amet consectetur adipiscing elit senectus.</p>
+                  </div>
+                  <div class="box__action">
+                     <select class="form-control__field form-control__field--select" name="">
+                        <option value="">Seleccione una sede</option>
+                        <option value=""><a href="template-page-horarios.shtml">Sede First</a></option>
+                        <option value=""><a href="">Sede Primary</a></option>
+                        <option value=""><a href="">Sede Santa Irene</a></option>
+                        <option value=""><a href="">Sede Alcahue</a></option>
+                        <option value=""><a href="">Sede Central</a></option>
+                     </select>
+                  </div>
+               </div>
+            </article>
+         </div>
+      </div>
+   </div>
+</section>

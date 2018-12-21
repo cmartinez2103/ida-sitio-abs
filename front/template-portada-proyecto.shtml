@@ -1,0 +1,72 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <!--#include virtual="/partials/header-portada.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Principios institucionales</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Perfiles institucionales</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Fundamentos institucionales</h4>
+						</div>
+					</article>
+				</div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Capacidades y destrezas</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Valores y actitudes</h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">Finalidades institucionales</h4>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<!--#include virtual="_footer.shtml" -->

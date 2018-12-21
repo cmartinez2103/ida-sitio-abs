@@ -1,0 +1,48 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <!--#include virtual="/partials/header-portada.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+                  <figure class="box__figure">
+                     <a href="template-page-directivos.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="template-page-directivos.shtml">Directivos</a></h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+						<figure class="box__figure">
+                     <a href="template-page-profesores.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="template-page-profesores.shtml">Profesores Jefes</a></h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--fancy center">
+                  <figure class="box__figure">
+                     <a href="template-page-administradores.shtml">
+                        <img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+                     </a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="template-page-administradores.shtml">Administradores</a></h4>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<!--#include virtual="_footer.shtml" -->

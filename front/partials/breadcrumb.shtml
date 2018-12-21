@@ -1,0 +1,7 @@
+<div class="container">
+   <ul class="breadcrumbs">
+      <li class="breadcrumbs__item"><a href="">Inicio</a></li>
+      <li class="breadcrumbs__item"><a href="">Página uno</a></li>
+      <li class="breadcrumbs__item current"><a href="">Página dos</a></li>
+   </ul>
+</div>

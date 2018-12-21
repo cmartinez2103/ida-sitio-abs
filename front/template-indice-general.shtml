@@ -1,0 +1,90 @@
+<main>
+   <!--#include virtual="/partials/header-indice-general.shtml" -->
+   <section class="horizon--inner">
+      <div class="container">
+         <div class="row">
+            <div class="gr-6 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured big">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/327/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Seleeciones deportivas</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+            <div class="gr-6 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured big">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/327/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Ligas deportivas</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+            <div class="gr-6 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured big">
+                  <figure class="box__figure">
+                     <img src="http://unsplash.it/568/327/" class="cover-img" alt="title" />
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">Talleres</h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="template-portada-actividades.shtml" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+            <div class="gr-6 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured big">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/327/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Seleeciones deportivas</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

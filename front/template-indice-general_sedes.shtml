@@ -1,0 +1,89 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <!--#include virtual="/partials/header-indice-general.shtml" -->
+
+   <section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<div class="gr-6 gr-12@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="template-portada-sedes.shtml">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="template-portada-sedes.shtml">First</a></h4>
+							<div class="box__excerpt">
+								<p>Playgroup Mayor,Playgroup Menor, Pre Kinder y Kinder</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-6 gr-6@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Primary</a></h4>
+							<div class="box__excerpt">
+								<p>Primero y segundo básico</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Sanra Irene</a></h4>
+							<div class="box__excerpt">
+								<p>Tercero a Sexto básico</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Alcahue</a></h4>
+							<div class="box__excerpt">
+								<p>Tercero a Sexto básico</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Central</a></h4>
+							<div class="box__excerpt">
+								<p>Séptimo básico a Cuarto Medio</p>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</main>
+<!--#include virtual="_footer.shtml" -->

@@ -1,0 +1,377 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<section class="horizon horizon--main">
+		<div class="container--slider">
+			<div class="slider slider--overisland slider--main" data-module="slider" data-transition="false">
+				<div class="slider__items" data-role="slider-list">
+
+					<div class="slider__slide current" data-role="slider-slide">
+						<figure class="slider__figure">
+							<img src="http://unsplash.it/1280/627/" class="cover-img hide@tablet" alt="title" />
+							<img src="http://unsplash.it/1024/820/" class="cover-img showb@tablet" alt="title" />
+						</figure>
+						<div class="slider__container">
+							<div class="slider__body">
+								<h1 class="slider__title">Admisión 2019</h1>
+								<div class="slider__excerpt">
+									<p>Lorem ipsum dolor sit amet consectetur adipiscing elit senectus,
+										augue hendrerit torquent habitasse quis morbi laoreet pharetra, magna penatibud.</p>
+								</div>
+								<div class="slider__button">
+									<a href="#" class="button button--main  button--more">Leer más</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider__slide" data-role="slider-slide">
+						<figure class="slider__figure">
+							<img src="http://unsplash.it/1280/627/" class="cover-img hide@tablet" alt="title" />
+							<img src="http://unsplash.it/1024/820/" class="cover-img showb@tablet" alt="title" />
+						</figure>
+						<div class="slider__container">
+							<div class="slider__body">
+								<h1 class="slider__title">Admisión 2019</h1>
+								<div class="slider__excerpt">
+									<p>Lorem ipsum dolor sit amet consectetur adipiscing elit senectus,
+										augue hendrerit torquent habitasse quis morbi laoreet pharetra, magna penatibud.</p>
+								</div>
+								<div class="slider__button">
+									<a href="#" class="button button--main button--more">Call to action</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="slider__arrows">
+					<button class="slider__arrow slider__arrow--prev" data-role="slider-arrow" data-direction="prev"></button>
+					<button class="slider__arrow slider__arrow--next" data-role="slider-arrow" data-direction="next"></button>
+				</div>
+				<div class="slider__bullets">
+					<button class="slider__bullet slider__bullet--current" data-role="slider-bullet" data-target="0"></button>
+					<button class="slider__bullet" data-role="slider-bullet" data-target="1"></button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="horizon horizon--absolute">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Conozca nuestra comunidad</h2>
+				<a href="#" class="link link--more rigth big hide@tablet">ver más</a>
+			</div>
+			<div class="row" data-equalize="target" data-mq="tablet-down" data-eq-target="[data-eq]">
+				<div class="gr-8 gr-12@medium no-gutter gutter-horizontal@tablet">
+					<article class="box box--absolute left" data-eq>
+						<figure class="box__figure" data-objectFit>
+							<img src="http://unsplash.it/690/390/" class="cover-object" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title">
+								<a href="">Somos parte de cognita</a>
+							</h4>
+							<div class="box__excerpt">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit senectus.</p>
+							</div>
+							<div class="box__action">
+								<a href="#" class="button button--main button--more">Leer más</a>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-12@medium no-gutter gutter-horizontal@tablet" data-eq>
+					<article class="box box--card">
+						<figure class="box__icon">
+							<img src="dist/img/iconos/icon-gorro.svg" alt="Icono de tarjeta" class="icon-img">
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="template-portada-equipo.shtml">Equipo de colegio</a></h4>
+							<div class="box__excerpt">
+								<p>Lorem ipsum dolor sit amet consectetur scing elit senectus.
+								amet consectetur adipiscing elit senectus.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="template-portada-equipo.shtml" class="link link--more">ver más</a>
+							</div>
+						</div>
+					</article>
+					<article class="box box--card">
+						<figure class="box__icon">
+							<img src="dist/img/iconos/icon-globe.svg" alt="Icono de tarjeta" class="icon-img">
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="template-page-historia.shtml">Nuestra Historia</a></h4>
+							<div class="box__excerpt">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit senectus.</p>
+							</div>
+						</div>
+						<div class="box__action flex-right">
+							<a href="template-page-historia.shtml" class="link link--more">ver más</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="horizon">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Nuestras Sedes</h2>
+				<a href="#" class="link link--more rigth big hide@tablet">ver más</a>
+			</div>
+			<div class="row">
+				<div class="gr-6 gr-12@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="template-portada-sedes.shtml">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="emplate-portada-sedes.shtml">First</a></h4>
+							<div class="box__excerpt">
+								<p>Playgroup Mayor,Playgroup Menor, Pre Kinder y Kinder</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-6 gr-6@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Primary</a></h4>
+							<div class="box__excerpt">
+								<p>Primero y segundo básico</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Sanra Irene</a></h4>
+							<div class="box__excerpt">
+								<p>Tercero a Sexto básico</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Alcahue</a></h4>
+							<div class="box__excerpt">
+								<p>Tercero a Sexto básico</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@small no-gutter-px gutter-horizontal@small">
+					<article class="box box--fancy">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Central</a></h4>
+							<div class="box__excerpt">
+								<p>Séptimo básico a Cuarto Medio</p>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="horizon">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Conozca nuestro proyecto</h2>
+				<a href="#" class="link link--more rigth big hide@tablet">ver más</a>
+			</div>
+			<div class="row" data-equalize="target" data-mq="small-down" data-eq-target="[data-eq]">
+				<div class="gr-8 gr-12@medium no-gutter gutter-horizontal@tablet">
+					<article class="box box--absolute left" data-eq>
+						<figure class="box__figure" data-objectFit>
+							<img src="http://unsplash.it/690/390/" class="cover-object" alt="title" />
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Infraestructura</a></h4>
+							<div class="box__excerpt">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit senectus.</p>
+							</div>
+							<div class="box__action">
+								<a href="#" class="button button--main button--more">Leer más</a>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-12@medium no-gutter gutter-horizontal@tablet" data-eq>
+					<article class="box box--card">
+						<figure class="box__icon">
+							<img src="dist/img/iconos/icon-gorro.svg" alt="Icono de tarjeta" class="icon-img">
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Marco curricular</a></h4>
+							<div class="box__excerpt">
+								<p>Lorem ipsum dolor sit amet consectetur scing elit senectus.
+								amet consectetur adipiscing elit senectus.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">ver más</a>
+							</div>
+						</div>
+					</article>
+					<article class="box box--card">
+						<figure class="box__icon">
+							<img src="dist/img/iconos/icon-globe.svg" alt="Icono de tarjeta" class="icon-img">
+						</figure>
+						<div class="box__body">
+							<h4 class="box__title"><a href="">Nuestros logros</a></h4>
+							<div class="box__excerpt">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit senectus.</p>
+							</div>
+						</div>
+						<div class="box__action flex-right">
+							<a href="#" class="link link--more">ver más</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="horizon">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Actividades Extraprogramáticas</h2>
+				<a href="#" class="link link--more rigth big hide@tablet">ver más</a>
+			</div>
+			<div class="row box--row">
+				<div class="gr-3 gr-6@tablet gr-12@phablet no-gutter">
+					<article class="box box--featured center">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body small">
+							<h4 class="box__title"><a href="">Seleeciones deportivas</a></h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-3 gr-6@tablet gr-12@phablet no-gutter">
+					<article class="box box--featured center">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body small">
+							<h4 class="box__title"><a href="">Ligas deportivas</a></h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-3 gr-6@tablet gr-12@phablet no-gutter">
+					<article class="box box--featured center">
+						<figure class="box__figure">
+							<a href="template-portada-talleres.shtml">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body small">
+							<h4 class="box__title"><a href="template-portada-talleres.shtml">Talleres</a></h4>
+						</div>
+					</article>
+				</div>
+				<div class="gr-3 gr-6@tablet gr-12@phablet no-gutter">
+					<article class="box box--featured center">
+						<figure class="box__figure">
+							<a href="">
+								<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body small">
+							<h4 class="box__title"><a href="">Eventos anuales</a></h4>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="horizon bg bg-light">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Vida escolar</h2>
+				<a href="#" class="link link--more rigth hide@tablet">ver más</a>
+			</div>
+			<div class="row">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="">Seded First</a></p><p><a href="">Fotos Oficianles</a></p>
+							</div>
+							<h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="">American British</a></p><p><a href="">Evento Anual</a></p>
+							</div>
+							<h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="">Sede</a></p><p><a href="">Subcategoría</a></p>
+							</div>
+							<h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--#include virtual="partials/_horarios-departamentos.shtml" -->
+
+</main>
+
+<!--#include virtual="_footer.shtml" -->

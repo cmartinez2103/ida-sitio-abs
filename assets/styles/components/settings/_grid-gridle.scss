@@ -1,0 +1,47 @@
+@import '../gridle/gridle-flex';
+
+// general settings
+@include gridle_setup((
+	context : 12,
+	gutter-width: 1rem,
+	gutter-top: .5rem,
+	gutter-bottom: .5rem,
+	classes-prefix: ''
+));
+
+// ~1280px
+@include gridle_register_state(desktop, (
+   max-width: $desktop
+));
+
+// ~1024px
+@include gridle_register_state(large, (
+	max-width: $large
+));
+
+// ~900px
+@include gridle_register_state(book, (
+	max-width: $book
+));
+
+// ~800px
+@include gridle_register_state(medium, (
+	max-width: $medium
+));
+
+// ~768px
+@include gridle_register_state(tablet, (
+	max-width: $tablet
+));
+
+// ~640px
+@include gridle_register_state(small, (
+	max-width: $small
+));
+
+// ~480px
+@include gridle_register_state(phablet, (
+	max-width: $phablet
+));
+
+@include gridle_generate_classes();

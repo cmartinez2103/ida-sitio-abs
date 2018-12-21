@@ -1,0 +1,12 @@
+<div class="header header__main">
+   <div class="container">
+      <figure class="header__image" data-objectFit>
+         <img src="http://unsplash.it/1137/300/" alt="" class="cover-object">
+      </figure>
+      <div class="header__body">
+         <div class="box">
+            <h1 class="header__title">ACTIVIDADES EXTRAPROGRAMÁTICAS</h1>
+         </div>
+      </div>
+   </div>
+</div>

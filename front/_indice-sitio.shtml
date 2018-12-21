@@ -1,0 +1,38 @@
+<div class="navegacion-sitio">
+   <div class="container">
+      <div class="row">
+         <div class="gr-3 gr-12@medium margin-bottom@medium">
+            <h4>Principales</h4>
+            <a href="index.shtml">Inicio</a>
+            <a href="page.shtml">Página</a>
+            <a href="single.shtml">Single</a>
+         </div>
+         <div class="gr-3 gr-12@medium margin-bottom@medium">
+            <h4>Indices Generales</h4>
+            <a href="template-indice-general_quienes_somos.shtml">Quienes Somos</a>
+            <a href="template-indice-general_nuestro_proyecto.shtml">Nuestros Proyectos</a>
+            <a href="template-indice-general_vida_escolar.shtml">Vida Escolar</a>
+            <a href="template-indice-general_actividades.shtml">Actividades Extraprogramaticas</a>
+            <a href="template-indice-general_sedes.shtml">Nuestras Sedes</a>
+         </div>
+         <div class="gr-3 gr-12@medium margin-bottom@medium">
+            <h4>Portadas</h4>
+            <a href="template-portada-proyecto.shtml">Proyecto Educativo</a>
+            <a href="template-portada-talleres.shtml">Talleres</a>
+            <a href="template-portada-actividades.shtml">Actividades Extraprogramaticas</a>
+            <a href="template-portada-equipo.shtml">Equipo del Colegio</a>
+            <a href="template-portada-sedes.shtml">Sedes First</a>
+         </div>
+         <div class="gr-3 gr-12@medium margin-bottom@medium">
+            <h4>Páginas</h4>
+            <a href="page.shtml">Pagína por defecto y Single</a>
+            <a href="template-page-atencion-apoderado.shtml">Atención apoderados</a>
+            <a href="template-page-contacto.shtml">Contacto</a>
+            <a href="template-page-postulacion.shtml">Postulación</a>
+            <a href="template-page-historia.shtml">Historia</a>
+            <a href="template-page-horarios-cursos.shtml">Horarios de Cursos</a>
+            <a href="template-page-profesores.shtml">Profesores</a>
+         </div>
+      </div>
+   </div>
+</div>

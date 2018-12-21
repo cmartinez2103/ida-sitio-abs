@@ -1,0 +1,47 @@
+<div class="sidebar space-left">
+   <h3 class="sidebar__title">Últimas Noticias</h3>
+   <div class="row">
+      <div class="gr-12 gr-6@tablet gr-12@small">
+         <article class="box box--post">
+            <figure class="box__figure">
+               <img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+            </figure>
+            <div class="box__body">
+               <div class="box__meta">
+                  <p><a href="">Sede</a></p><p><a href="">Subcategoría</a></p>
+               </div>
+               <h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+               <span class="box__date">11 de Agosto 2018</span>
+            </div>
+         </article>
+      </div>
+      <div class="gr-12 gr-6@tablet gr-12@small">
+         <article class="box box--post">
+            <figure class="box__figure">
+               <img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+            </figure>
+            <div class="box__body">
+               <div class="box__meta">
+                  <p><a href="">Sede</a></p><p><a href="">Subcategoría</a></p>
+               </div>
+               <h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+               <span class="box__date">11 de Agosto 2018</span>
+            </div>
+         </article>
+      </div>
+      <div class="gr-12 gr-6@tablet gr-12@small">
+         <article class="box box--post">
+            <figure class="box__figure">
+               <img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+            </figure>
+            <div class="box__body">
+               <div class="box__meta">
+                  <p><a href="">Sede</a></p><p><a href="">Subcategoría</a></p>
+               </div>
+               <h4 class="box__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</a></h4>
+               <span class="box__date">11 de Agosto 2018</span>
+            </div>
+         </article>
+      </div>
+   </div>
+</div>

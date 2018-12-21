@@ -1,0 +1,113 @@
+<div class="form-pasos--buttons">
+   <button class="form-pasos--button one active" data-func="showTab" data-target="postulacion-alumno">1. Datos del alumno</button>
+   <button class="form-pasos--button two" data-func="showTab" data-target="postulacion-apoderado">2. Datos del apoderado</button>
+</div>
+<div class="form-pasos--targets">
+   <div class="form-pasos--target active" data-tabname="postulacion-alumno" data-validate="false">
+      <div class="form-parent form-parent--postulacion" data-validate="false" >
+         <form action="#" class="row" method="POST" data-module="common-form" autocomplete="off">
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-nombre" class="form-control__label">Nombre del alumno</label>
+               <input type="text" class="form-control__field" id="postulacion-nombre-alumno" name="postulacion-nombre-alumno" placeholder="Ingrese del nombre del alumno" autocomplete="off" required data-custom-validation="onlyString" maxlength="50">
+               <p class="form-control__text">
+                  Sólo caracteres alfabéticos
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-email" class="form-control__label">Primer apellido del alumno</label>
+               <input type="text" class="form-control__field" id="postulacion-apellido-uno-alumno" name="postulacion-apellido-uno-alumno" placeholder="Ingrese el primer apellido" maxlength="50" required>
+               <p class="form-control__text">
+                  Sólo caracteres alfabéticos
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-email" class="form-control__label">Segundo apellido del alumno</label>
+               <input type="text" class="form-control__field" id="postulacion-apellido-dos-alumno" name="postulacion-apellido-dos-alumno" placeholder="Ingrese el segundo apellido" maxlength="50" required>
+               <p class="form-control__text">
+                  Sólo caracteres alfabéticos
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-email" class="form-control__label">Rut del alumno</label>
+               <input type="text" class="form-control__field" id="postulacion-rut-alumno" name="postulacion-rut-alumno" placeholder="Ingrese el rut del alumno" maxlength="50" required>
+               <p class="form-control__text">
+                  Sólo caracteres numéricos y/o alfabéticos
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-email" class="form-control__label">Fecha de nacimiento del alumno</label>
+               <input type="text" class="form-control__field datepicker-wp" id="postulacion-fecha-nacimiento" name="postulacion-fecha-nacimiento" data-minlength="2" data-maxlength="10" placeholder="01-01-2000"required>
+               <p class="form-control__text">
+                  Sólo caracteres numéricos
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-Curso" class="form-control__label">Curso</label>
+               <select class="form-control__field form-control__field--select" name="" required>
+                  <option value="">Elija curso al que desea postular</option>
+                  <option value="sede-first">Primero básico</option>
+                  <option value="sede-primary">Segundo básico</option>
+                  <option value="sede-santa-irene">Tercero básico</option>
+               </select>
+               <p class="form-control__text">
+                  Selecciona el curso al cual tu hijo desea postular
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-email" class="form-control__label">Año de postulación</label>
+               <input type="text" class="form-control__field" id="postulacion-ano-postulacion" name="postulacion-ano-postulacion" placeholder="Ingrese el año" maxlength="50" required>
+               <p class="form-control__text">
+                  Sólo caracteres numéricos
+               </p>
+            </div>
+            <div class="form-control gr-12 gr-12@small form-control__action">
+               <a href="template-page-contacto.shtml" class="link link--more return sans">Volver</a>
+               <!-- <a href="#" class="button button-input button--main" data-target="postulacion-apoderado">Siguiente</a> -->
+               <button class="button button-input button--main" data-target="postulacion-apoderado">Siguiente</button>
+            </div>
+         </form>
+      </div>
+   </div>
+   <div class="form-pasos--target" data-tabname="postulacion-apoderado">
+      <div class="form-parent form-parent--postulacion"  data-validate="false">
+         <form action="#" class="row" method="POST" data-module="common-form" data-validation="generic_ajax" data-parent="[data-parent]" data-submit-class="sending" autocomplete="off">
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-nombre" class="form-control__label">Nombre completo del apoderado</label>
+               <input type="text" class="form-control__field" id="postulacion-nombre-apoderado" name="postulacion-nombre-apoderado" placeholder="Ingrese del nombre completo del apoderado" autocomplete="off" required data-custom-validation="onlyString" maxlength="50">
+               <p class="form-control__text">
+                  Sólo caracteres alfabéticos
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-email" class="form-control__label">Email</label>
+               <input type="email" class="form-control__field" id="postulacion-email" name="postulacion-email" placeholder="Ingrese el email" maxlength="50" required>
+               <p class="form-control__text">
+                  Debe contener el valor “@“ Ej: mimail@empresa.com
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-email" class="form-control__label">Rut del apoderado</label>
+               <input type="text" class="form-control__field" id="postulacion-rut-apoderado" name="postulacion-rut-apoderado" placeholder="Ej: 12345678-9" required>
+               <p class="form-control__text">
+                  Sólo caracteres numéricos y/o alfabéticos
+               </p>
+            </div>
+            <div class="form-control gr-6 gr-12@small">
+               <label for="postulacion-email" class="form-control__label">Teléfono</label>
+               <input type="text" class="form-control__field" id="postulacion-telefono" name="postulacion-telefono" placeholder="Ingrese el teléfono" data-minlength="2" data-maxlength="10" data-custom-validation="onlyNumbers" required>
+               <p class="form-control__text">
+                  Sólo caracteres numéricos
+               </p>
+            </div>
+            <div class="form-control gr-12 gr-12@small form-control__action">
+               <a href="template-page-contacto.shtml" class="link link--more return sans">Volver</a>
+               <a href="template-page-contacto.shtml" class="button button-input button--main">Enviar</a>
+               <!-- <button type="submit" class="button button-input button--main">Enviar</button> -->
+            </div>
+            <div id="msg-form-arancel" class="gr-12">
+                <!--mensajes de form-->
+            </div>
+         </form>
+      </div>
+   </div>
+</div>

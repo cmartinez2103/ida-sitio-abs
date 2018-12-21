@@ -1,0 +1,85 @@
+<div class="sidebar space-left-small">
+   <h3 class="sidebar__title">¿Tienes dudas? Contáctanos</h3>
+   <div class="row">
+      <div class="gr-12 gr-6@medium gr-12@small">
+         <div class="box box--simple box--horizontal ditance">
+            <div class="box__figure">
+               <img src="http://unsplash.it/90/90/" class="cover-img" alt="title" />
+            </div>
+            <div class="box__body">
+               <h4 class="box__title tiny text-upper">First</h4>
+               <p class="box__excerpt ten">Primero y segundo básico</p>
+               <ul class="list__data small">
+                  <li class="list__icon email"><a href="mailto:santairene@americanbritish.cl">santairene@americanbritish.cl</a></li>
+                  <li class="list__icon phone"><a href="tel:227101622">2 2710 1622 - 2 2710 16 23</a></li>
+                  <li class="list__icon place"><a href="">Diagonal Santa Irene nº 2952</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="gr-12 gr-6@medium gr-12@small">
+         <div class="box box--simple box--horizontal ditance">
+            <div class="box__figure">
+               <img src="http://unsplash.it/90/90/" class="cover-img" alt="title" />
+            </div>
+            <div class="box__body">
+               <h4 class="box__title tiny text-upper">Primary</h4>
+               <p class="box__excerpt ten">Primero y segundo básico</p>
+               <ul class="list__data small">
+                  <li class="list__icon email"><a href="mailto:santairene@americanbritish.cl">santairene@americanbritish.cl</a></li>
+                  <li class="list__icon phone"><a href="tel:227101622">2 2710 1622 - 2 2710 16 23</a></li>
+                  <li class="list__icon place"><a href="">Diagonal Santa Irene nº 2952</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="gr-12 gr-6@medium gr-12@small">
+         <div class="box box--simple box--horizontal ditance">
+            <div class="box__figure">
+               <img src="http://unsplash.it/90/90/" class="cover-img" alt="title" />
+            </div>
+            <div class="box__body">
+               <h4 class="box__title tiny text-upper">Santa irene</h4>
+               <p class="box__excerpt ten">Primero y segundo básico</p>
+               <ul class="list__data small">
+                  <li class="list__icon email"><a href="mailto:santairene@americanbritish.cl">santairene@americanbritish.cl</a></li>
+                  <li class="list__icon phone"><a href="tel:227101622">2 2710 1622 - 2 2710 16 23</a></li>
+                  <li class="list__icon place"><a href="">Diagonal Santa Irene nº 2952</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="gr-12 gr-6@medium gr-12@small">
+         <div class="box box--simple box--horizontal ditance">
+            <div class="box__figure">
+               <img src="http://unsplash.it/90/90/" class="cover-img" alt="title" />
+            </div>
+            <div class="box__body">
+               <h4 class="box__title tiny text-upper">Alicahue</h4>
+               <p class="box__excerpt ten">Primero y segundo básico</p>
+               <ul class="list__data small">
+                  <li class="list__icon email"><a href="mailto:santairene@americanbritish.cl">santairene@americanbritish.cl</a></li>
+                  <li class="list__icon phone"><a href="tel:227101622">2 2710 1622 - 2 2710 16 23</a></li>
+                  <li class="list__icon place"><a href="">Diagonal Santa Irene nº 2952</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="gr-12 gr-6@medium gr-12@small">
+         <div class="box box--simple box--horizontal ditance">
+            <div class="box__figure">
+               <img src="http://unsplash.it/90/90/" class="cover-img" alt="title" />
+            </div>
+            <div class="box__body">
+               <h4 class="box__title tiny text-upper">Central</h4>
+               <p class="box__excerpt ten">Primero y segundo básico</p>
+               <ul class="list__data small">
+                  <li class="list__icon email"><a href="mailto:santairene@americanbritish.cl">santairene@americanbritish.cl</a></li>
+                  <li class="list__icon phone"><a href="tel:227101622">2 2710 1622 - 2 2710 16 23</a></li>
+                  <li class="list__icon place"><a href="">Diagonal Santa Irene nº 2952</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

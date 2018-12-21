@@ -1,0 +1,101 @@
+<!--#include virtual="__meta-header.shtml" -->
+<body>
+	<header class="header-bar">
+		<div class="top-bar">
+			<div class="container" data-area-name="desktop-top">
+				<div class="top-bar__items" data-mutable="tablet-down" data-desktop-area="desktop-top" data-mobile-area="mobile-top">
+					<ul class="top-bar__menu top-bar__menu--simple">
+						<li class="menu-item">
+							<a href="tomate.html">Contacto</a>
+						</li>
+						<li class="menu-item current-menu-item">
+							<a href="tomate.html">Información para apoderados</a>
+						</li>
+						<li class="menu-item">
+							<a href="tomate.html">Aulas Virtual</a>
+						</li>
+					</ul>
+					<ul class="top-bar__menu top-bar__menu--social">
+						<li class="menu-item menu-item--twitter">
+							<a href="tomate.html"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="menu-item menu-item--youtube">
+							<a href="tomate.html"><i class="fab fa-youtube"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<nav class="nav-bar" data-module="nav-bar">
+			<div class="container container--nav">
+				<div class="nav-bar__holder">
+
+					<div class="nav-bar__mobile-head">
+						<button class="nav-bar__mobile-menu" aria-label="Ver menú" data-role="nav-deployer">
+							<span></span>
+						</button>
+						<div class="nav-bar__brand">
+							<a class="app-brand app-brand--inline" title="title" href="index.html">
+								<img src="./dist/img/logos/logo-american-british-school.svg" class="app-brand__logo" alt="Logo American British School" />
+							</a>
+						</div>
+						<button class="nav-bar__mobile-search" aria-label="Ver búsqueda" data-role="search-deployer">
+						</button>
+					</div>
+
+					<div class="nav-bar__body" data-role="nav-body">
+						<div class="nav-bar__menu-holder">
+							<ul class="nav-bar__menu">
+								<li class="menu-item menu-item-has-children" data-role="touch-submenu">
+									<a href="template-indice-general_quienes_somos.shtml" title="title">Quiénes Somos</a>
+									<ul class="submenu">
+										<li class="menu-item">
+											<a href="template-servicio.shtml" title="Ir a ">Reglamentos y protocolos</a>
+										</li>
+										<li class="menu-item">
+											<a href="template-servicio.shtml" title="Ir a ">Equipo del colegio</a>
+										</li>
+										<li class="menu-item">
+											<a href="template-servicio.shtml" title="Ir a ">Somos parte de Cognita</a>
+										</li>
+									</ul>
+									<span class="click-handler" data-role="touch-submenu-deployer"></span>
+								</li>
+								<li class="menu-item current-menu-item">
+									<a href="template-indice-general_nuestro_proyecto.shtml" title="title">Nuestro Proyecto</a>
+								</li>
+								<li class="menu-item">
+									<a href="template-indice-general_vida_escolar.shtml" title="title">Vida Escolar</a>
+								</li>
+								<li class="menu-item">
+									<a href="template-indice-general_actividades.shtml" title="title">Actividades Extraprogramáticas</a>
+								</li>
+								<li class="menu-item">
+									<a href="template-indice-general_sedes.shtml" title="title">Nuestras Sedes</a>
+								</li>
+								<li class="menu-item">
+									<a href="#" title="title">Admisión</a>
+								</li>
+								<li class="menu-item menu-item--search hide@tablet">
+									<button class="nav-bar__search__deployer" data-role="search-deployer"></button>
+								</li>
+							</ul>
+							<div class="mobile-top" data-area-name="mobile-top"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="mobile-search" data-area-name="mobile-search" data-role="search-body"></div>
+		</nav>
+		<div class="nav-bar__search__holder hide@tablet" data-role="search-body">
+			<div class="container">
+				<form class="flex-right">
+					<div class="nav-bar__search" data-mutable="tablet-down" data-desktop-area="desktop-search" data-mobile-area="mobile-search">
+						<input type="search" class="nav-bar__search__input" placeholder="Escribe aquí lo que buscas" required>
+						<button class="nav-bar__search__submit"></button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>

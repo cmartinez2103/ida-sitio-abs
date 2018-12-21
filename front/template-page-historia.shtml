@@ -1,0 +1,101 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+         <div class="row">
+            <div class="gr-2 gr-6@tablet gr-12@phablet hide@tablet" data-area-name="desktop-sidebar">
+               <div data-desktop-area="desktop-sidebar" data-mobile-area="mobile-sidebar" data-mutable="tablet-down">
+                  <!--#include virtual="/partials/sidebar/sidebar.shtml" -->
+               </div>
+            </div>
+
+            <div class="gr-9 gr-10@large gr-12@tablet prefix-1 prefix-0@large">
+               <div class="horizon__intro">
+      				<h2 class="horizon__title horizon__title--page">HISTORIA DE AMERICAN BRITISH</h2>
+      			</div>
+               <div class="row" data-equalize="target" data-mq="small-down" data-eq-target="[data-eq]">
+                  <div class="gr-6 gr-6@tablet gr-12@small">
+                     <article class="box box--data bg-light" data-eq>
+                        <div class="box__body">
+                           <span class="box__year">1992</span>
+                           <h2 class="box__title">Inauguración del colegio</h2>
+                           <div class="box__excerpt tiny">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                           </div>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-6 gr-6@tablet gr-12@small">
+                     <figure class="box__figure" data-eq>
+                        <img src="http://unsplash.it/400/400" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+                  <div class="gr-3 gr-6@small">
+                     <figure class="box__figure">
+                        <img src="http://unsplash.it/400/400" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+                  <div class="gr-3 gr-6@small">
+                     <figure class="box__figure">
+                        <img src="http://unsplash.it/400/400" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+                  <div class="gr-3 gr-6@small">
+                     <figure class="box__figure">
+                        <img src="http://unsplash.it/400/400" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+                  <div class="gr-3 gr-6@small">
+                     <figure class="box__figure">
+                        <img src="http://unsplash.it/400/400" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+               </div>
+               <div class="row" data-equalize="target" data-mq="small-down" data-eq-target="[data-eq]">
+                  <div class="gr-6 gr-6@tablet gr-12@small">
+                     <figure class="box__figure" data-eq>
+                        <img src="http://unsplash.it/405/405" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+                  <div class="gr-6 gr-6@tablet gr-12@small">
+                     <article class="box box--data bg-light" data-eq>
+                        <div class="box__body">
+                           <span class="box__year">1994</span>
+                           <h2 class="box__title">CONSTRUCCIÓN DEL EDIFICIO</h2>
+                           <div class="box__excerpt tiny">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                           </div>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-3 gr-6@small">
+                     <figure class="box__figure">
+                        <img src="http://unsplash.it/210/210" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+                  <div class="gr-3 gr-6@small">
+                     <figure class="box__figure">
+                        <img src="http://unsplash.it/210/210" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+                  <div class="gr-3 gr-6@small">
+                     <figure class="box__figure">
+                        <img src="http://unsplash.it/210/210" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+                  <div class="gr-3 gr-6@small">
+                     <figure class="box__figure">
+                        <img src="http://unsplash.it/210/210" class="cover-img" alt="title" />
+                     </figure>
+                  </div>
+               </div>
+            </div>
+
+            <div class="gr-12@small gr-12@tablet showb@tablet" data-area-name="mobile-sidebar"></div>
+
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

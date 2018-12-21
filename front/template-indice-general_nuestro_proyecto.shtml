@@ -1,0 +1,205 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <!--#include virtual="/partials/header-indice-general.shtml" -->
+   <section class="horizon--inner">
+      <div class="container">
+         <div class="row" data-equalize="target" data-mq="phablet-down" data-eq-target=".box">
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="template-portada-proyecto.shtml">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="template-portada-proyecto.shtml">Proyecto educativo</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="template-portada-proyecto.shtml" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Inglés</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="template-portada-actividades.shtml" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Infraestructura y equipamiento</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Orientación y apoyo educativo</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Formación valórica</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Marco curricular</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Nuestros logros</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">PSU SIMCE</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet">
+               <article class="box box--featured">
+                  <figure class="box__figure">
+                     <a href="">
+                        <img src="http://unsplash.it/568/323/" class="cover-img" alt="title" />
+                     </a>
+                  </figure>
+                  <div class="box__body">
+                     <h4 class="box__title">
+                        <a href="">Cumplimiento de Estándares Nacionales de Aprendizaje</a>
+                     </h4>
+                     <div class="box__excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                           incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="box__action flex-right">
+								<a href="#" class="link link--more">Ver más</a>
+							</div>
+                  </div>
+               </article>
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

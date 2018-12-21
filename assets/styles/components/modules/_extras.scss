@@ -1,0 +1,179 @@
+.app-brand {
+	display: block;
+	font-size: map-get($text_sizes, big);
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&__logo {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	// Elements
+	&__name, &__logo {
+		display: block;
+	}
+
+	// Modifiers
+	&--inline {
+		.app-brand__name, .app-brand__logo {
+			display: inline-block;
+		}
+	}
+
+	@include media( large-down ){
+		font-size: map-get($text_sizes, regular);
+	}
+
+	@include media( small-down ){
+		&__name, &--inline .app-brand__name { display: none; }
+	}
+}
+
+.image-box {
+	display: block;
+	padding: .5rem;
+	background: $color_white;
+	border: 1px solid map-get(map-get($colors_map, grey), lightest);
+}
+
+//Sectors
+
+.main--fixed{
+	padding-top: 120px;
+	&_mobile{
+		@include media (tablet-down){
+			padding-top: 56px;
+		}
+	}
+}
+
+.horizon{
+	position: relative;
+	margin: 2rem 0;
+	//elements
+	&__title{
+		font-size: 1.5rem;
+		border-bottom: 1px solid black;
+		padding-bottom: .5rem;
+		margin: 2rem 0 1.5rem;
+	}
+	&__subtitle{
+		font-size: 1.25rem;
+		line-height: 1.25rem;
+		margin: 1rem .5rem .5rem;
+	}
+	&__minititle{
+		display: block;
+		margin: 0 .5rem .25rem;
+		padding: 0 0 .125rem;
+		border-bottom: 1px solid $color_dark;
+	}
+	&__featuring{
+		background: $color_grey_lighter;
+		overflow: hidden;
+	}
+	//modifiers
+	&--main{
+		margin: 0 0 2rem!important;
+	}
+}
+
+.collapse{
+	border: 1px solid $color_grey;
+	 + .collapse{
+		border-top: none;
+	}
+	&__deployer{
+		width: 100%;
+		padding: 1rem;
+		border: none;
+		border-radius: 0;
+		background-color: $color_main_regular;
+		color: $color_white;
+		font-size: $size_14;
+		line-height: $size_12;
+		position: relative;
+		text-align: left;
+      text-transform: uppercase;
+		&:after{
+			@include get-icon($icon-add);
+			position: absolute;
+			font-size: 1.5rem;
+         height: 100%;
+			top: 0;
+         right: 1rem;
+			display: flex;
+         align-items: center;
+         justify-content: center;
+			@include transitional;
+		}
+		&.active{
+         &:after{@include get-icon($icon-remove);@include transitional;}
+      }
+	}
+	&__body{
+      display: none;
+      padding: 1rem 2rem;
+      &.active{display: block}
+   }
+}
+
+.child-list{
+	border: 1px solid red;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	&__item{
+		position: relative;
+		padding-left: 1rem;
+		margin: 0 0 1rem;
+		display: block;
+		&:last-child{
+			margin: 0;
+		}
+		&.current{
+			text-decoration: underline;
+			color: $color_secondary_regular;
+			&:before{
+				position: absolute;
+				left: 0;
+				@include get-icon($icon-chevron_right);
+			}
+		}
+	}
+}
+
+.sticky-side{
+	margin-top: 1rem;
+}
+
+.link{
+	color: $color_main_regular;
+	text-decoration: none;
+	font-weight: $weight_bold;
+	font-size: $size_10;
+	line-height: 1rem;
+	text-transform: uppercase;
+	position: relative;
+	&.big{
+		font-size: $size_12;
+	}
+	&--more{
+		padding-right: 1rem;
+		&:after{
+			// content: "\e315\e315\e315";
+			content: ">>";
+			// font-family: $font_ketchup;
+			position: absolute;
+			right: 0;
+			top: 0;
+			line-height: 1.4;
+		}
+	}
+	&:hover{
+
+	}
+}

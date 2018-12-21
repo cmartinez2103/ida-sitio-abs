@@ -1,0 +1,519 @@
+$oswald: "Oswald";
+$navheight: 56px+16px;
+body {
+   &.deployed {
+      &--nav {
+         overflow: hidden;
+         position: fixed;
+      }
+   }
+}
+
+.grid {
+   &-header {
+      background: $color_main_light;
+      &_bar {
+         @include css-grid;
+         position: relative;
+         grid-template-columns: 10% 1fr;
+         @include media (tablet-down) {
+            grid-template-columns: 1fr;
+         }
+      }
+      &__logo {
+         margin: 0;
+         display: flex;
+         @include media (tablet-down) {
+            align-items: center;
+            justify-content: center;
+            padding: .5rem 1rem;
+            img {
+               width: auto;
+               margin: 0 auto;
+               max-height: 3.5rem;
+            }
+         }
+      }
+      &__nav {
+         @include media (tablet-down) {
+            position: fixed;
+            overflow-y: scroll;
+            height: 0;
+            width: 100%;
+            top: $navheight;
+            left: 0;
+            background: $color_main_regular;
+            z-index: 5;
+            overflow: hidden;
+            max-height: calc(100vh - #{$navheight});
+            @include transitional;
+            &.deployed {
+               height: calc(100vh - #{$navheight});
+               @include transitional;
+            }
+         }
+      }
+      &__menu {
+         margin: 0;
+         padding: 0;
+         list-style-type: none;
+         height: 100%;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: flex-end;
+         .menu-item {
+            margin-right: 1rem;
+            background: transparent;
+            &:last-child {
+               margin: 0;
+            }
+            a {
+               color: white;
+               font-family: "Oswald";
+               font-weight: $weight_black;
+               text-transform: uppercase;
+               position: relative;
+               padding: .75rem .25rem;
+               @include media (tablet-down) {
+                  background: $color_main_regular;
+               }
+               &:after {
+                  content: '';
+                  position: absolute;
+                  top: 50%;
+                  left: 0;
+                  background: linear-gradient(to right, $color_white, $color_main_lighter);
+                  width: 0;
+                  height: 3px;
+                  @include transitional;
+               }
+               &:hover {
+                  text-decoration: none; // color: rgba(white, .8);
+                  &:after {
+                     width: 100%;
+                     @include transitional;
+                  }
+               }
+            }
+         }
+         @include media (tablet-down) {
+            flex-direction: column;
+            height: auto;
+            .menu-item {
+               margin: 0 0 .5rem;
+               display: block;
+               width: 100%;
+               &:last-child {
+                  margin: 0
+               }
+               a {
+                  display: block;
+                  width: 100%;
+                  padding: .5rem;
+               }
+            }
+         }
+      }
+      &__search {
+         height: 0;
+         position: absolute;
+         top: 100%;
+         right: 0;
+         min-width: 20rem;
+         overflow: hidden;
+         z-index: 5;
+         @include transitional;
+         &.deployed {
+            height: 100%;
+            @include transitional;
+         }
+         @include media (tablet-down) {
+            width: 100%;
+         }
+      }
+      &.fixed {
+         position: fixed;
+         width: 100%;
+         top: 0;
+         left: 0;
+         z-index: 10;
+         +main {
+            padding-top: 4rem;
+         }
+      }
+   } //deployer buttons
+   &-deployer {
+      &__menu {
+         @include reset-appearance;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 3rem;
+         height: 100%;
+         background: $color_secondary_regular;
+         span {
+            display: block;
+            height: 3px;
+            width: 60%;
+            margin: 0 auto;
+            background-color: $color_white;
+            position: relative;
+            @include transitional;
+            &:after,
+            &:before {
+               content: '';
+               display: block;
+               width: 100%;
+               height: 100%;
+               background-color: $color_white;
+               position: absolute;
+               left: 0;
+               top: calc(50% - 1px);
+               @include transform(rotate(0));
+               @include transitional;
+            }
+            &:before {
+               @include transform(translateY(-.5rem) rotate(0));
+               @include transitional;
+            }
+            &:after {
+               @include transform(translateY(.5rem) rotate(0));
+               @include transitional;
+            }
+         }
+         &.deployed {
+            background: $color_secondary_dark;
+            span {
+               background-color: transparent;
+               @include transitional;
+               &:before,
+               &:after {
+                  @include transitional;
+               }
+               &:before {
+                  @include transform(translateY(0) rotate(45deg));
+               }
+               &:after {
+                  @include transform(translateY(0) rotate(-45deg));
+               }
+            }
+         }
+         @include media (tablet-up) {
+            display: none;
+         }
+      }
+      &__search {
+         @include reset-appearance;
+         position: absolute;
+         top: 0;
+         right: 0;
+         width: 3rem;
+         height: 100%;
+         min-height: 3rem;
+         background: $color_main_regular;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: $color_white;
+         font-size: 1.5rem;
+         &:after {
+            @include get-icon($icon-search);
+         }
+         &.deployed {
+            &:after {
+               @include get-icon($icon-close);
+            }
+         }
+         @include media (tablet-up) {
+            &:not(.menu-item) {
+               display: none;
+            }
+            &.menu-item {
+               position: relative;
+               background: $color_secondary_regular;
+            }
+         }
+         @include media (tablet-down) {
+            &.menu-item {
+               display: none !important;
+            }
+         }
+      }
+   } //nav search
+   &-search {
+      &__form {
+         position: relative;
+         width: 100%;
+         display: flex;
+         box-shadow: 1px 0px 5px rgba($color_black, .5);
+      }
+      &__field {
+         @include reset-appearance;
+         background: $color_white;
+         line-height: 1.5rem;
+         flex: auto;
+         font-size: 1rem;
+         padding: .5rem;
+      }
+      &__button {
+         @include reset-appearance;
+         width: 3rem;
+         background-color: $color_secondary_regular;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: $color_white;
+         font-size: 1.5rem;
+         &:after {
+            @include get-icon($icon-search);
+         }
+      }
+   }
+   /*Elements*/
+   &__figure {
+      margin: 0;
+   }
+   &__title {
+      font-family: $oswald;
+   }
+   &__cat,
+   &__views {
+      font-size: .75rem;
+      line-height: 1rem;
+   }
+   /*First example*/
+   &-news {
+      @include css-grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: auto;
+      grid-column-gap: .5rem;
+      grid-column: 4/6;
+      align-items: stretch;
+      &_group {
+         margin: 2rem 0;
+         @include css-grid;
+         grid-template-columns: repeat(5, 1fr);
+         grid-column-gap: 1rem;
+         grid-auto-rows: auto;
+         grid-row-gap: .5rem;
+         @include media (tablet-down) {
+            grid-template-columns: repeat(1, 1fr);
+         }
+      }
+      .grid {
+         &__figure,
+         &__body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid red;
+         }
+         &__figure {
+            grid-column: 1/3;
+         }
+         &__body {
+            grid-column: 3/6;
+         }
+         &__title {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            margin: 0 0 .55rem;
+         }
+         &__cat {
+            margin: 0 0 .55rem;
+         }
+         &__views {
+            margin: 0;
+         }
+      }
+      &.featured {
+         position: relative;
+         grid-column: 1/4;
+         grid-row: 1/4;
+         .grid {
+            &__figure,
+            &__body {
+               grid-column: 1/6;
+            }
+            &__body {
+               position: absolute;
+               width: 100%;
+               bottom: 0;
+               background: rgba(black, .25);
+               color: white;
+               padding: 1rem;
+               @include media (tablet-down) {
+                  height: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: flex-end;
+               }
+            }
+            &__title {
+               font-size: 1.5rem;
+            }
+         }
+      }
+      @include media (tablet-down) {
+         grid-row: auto !important;
+         grid-column: auto !important;
+      }
+   }
+   /*second example*/
+   &-album {
+      position: relative;
+      overflow: hidden;
+      &_group {
+         margin: 2rem 0;
+         @include css-grid;
+         grid-template-columns: repeat(4, 1fr);
+         @include media (tablet-down) {
+            grid-template-columns: repeat(2, 1fr);
+         }
+      }
+      &__figure {
+         overflow: hidden;
+         margin: 0;
+         img {
+            @include transitional;
+         }
+      }
+      &__body {
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: radial-gradient(rgba($color_black, .75), rgba($color_black, .25));
+         @include flex-col-center-all;
+         color: $color_white;
+         font-family: $oswald;
+         cursor: pointer;
+         @include transitional;
+      }
+      &.big-right {
+         grid-column: 3/5; //grid-column-start: 3; grid-column-end: 5;
+         grid-row: 1/3; //grid-row-start: 1; grid-row-endd: 3;
+      }
+      &.big-left {
+         grid-column: 1/3; //grid-column-start: 1; grid-column-end: 3;
+         grid-row: 2/4; //grid-row-start: 2; grid-row-endd: 4;
+      }
+      @include media (tablet-down) {
+         grid-row: auto !important;
+         grid-column: auto !important;
+      }
+      &:hover {
+         .grid-album {
+            &__figure {
+               img {
+                  @include transform(scale(1.1));
+                  @include filter(grayscale(100%));
+                  @include transitional;
+               }
+            }
+            &__body {
+               height: 200%;
+               width: 200%;
+               top: -50%;
+               left: -50%;
+               @include transitional;
+            }
+         }
+      }
+   }
+   /*third reich*/
+   &-archive {
+      @include css-grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 1rem;
+      grid-template-rows: auto;
+      grid-row-gap: 1rem;
+      @include media (midlarge-down) {
+         grid-template-columns: repeat(2, 1fr);
+      }
+      @include media (tablet-down) {
+         grid-template-columns: 1fr;
+         grid-gap: .5rem;
+      }
+      .box {
+         border: 1px solid red;
+      }
+   }
+}
+
+html {
+   background: white;
+}
+
+.spaced {
+   margin: 3rem 0;
+}
+
+$gridcols: "[col-start] 10% [col-2] 1fr [col-3] 1fr [col-end]";
+$gridrows: "[row-start] 100px [row-2] 150px [row-3] 150px [row-4] 150px [row-5] 100px [row-end]";
+.grid-container {
+   position: relative;
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: #{$gridcols};
+   grid-template-rows: #{$gridrows};
+}
+
+.grid-box {
+   min-height: 100px;
+   background: linear-gradient(#f49484, #f08091);
+   border: 4px solid black;
+   color: $color_white;
+   font-size: 2rem;
+   font-weight: $weight_bold;
+   @include flex-col-center-all;
+}
+
+.header {
+   @extend .grid-box;
+   grid-column: col-start/col-end;
+   background: $color_main_light
+}
+
+.sidebar {
+   @extend .grid-box;
+   grid-column: col-start/col-2;
+   grid-row: row-2/row-5;
+   background: $color_info_light;
+}
+
+.contenido {
+   @extend .grid-box;
+   grid-column: col-2/col-end; // grid-column: 2/7;
+}
+
+.contenido-1 {
+   background: $color_success_light; // grid-area: contenido-1;
+}
+
+.contenido-2 {
+   background: $color_backup_light; // grid-area: contenido-2;
+}
+
+.contenido-3 {
+   background: $color_warning_light; // grid-area: contenido-3;
+}
+
+.footer {
+   @extend .grid-box;
+   background: $color_main_dark;
+   grid-column: col-start/col-end;
+}
+
+.boxie {
+   @extend .grid-box;
+   grid-column: col-start/col-3;
+   grid-row: row-2/row-4;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}

@@ -1,0 +1,563 @@
+//////////////////////////////////
+////////////////////////////////// Blocks
+//////////////////////////////////
+.container{
+   max-width: (strip-unit($container) * 1rem);
+	margin: 0 auto;
+   padding: 0 .5rem;
+	@include media (tablet-down){
+		padding: 0 .5rem;
+		&--nav{
+			padding: 0;
+		}
+	}
+   &--slider{
+      max-width: (strip-unit($desktop) * 1rem);
+   	margin: 0 auto;
+   }
+	&:not(.container--nav){
+		overflow: hidden;
+	}
+	// >.row{
+	// 	@include media (tablet-up){
+	// 		margin: 0 -.5rem;
+	// 		width: calc(100% + 1rem);
+	// 		max-width: calc(100% + 1rem);
+	// 	}
+	// }
+}
+
+.elastic-img {
+   display: inline-block;
+   max-width: 100%;
+   height: auto;
+}
+
+.cover-img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+.cover-object{
+	min-width: 100%;
+   object-fit: cover;
+   object-position: center;
+   height: 100%;
+}
+
+[data-objectFit]{
+   height: 100%;
+   margin: 0;
+   &.box__object-fit {
+     background-size: cover;
+     background-position: center ;
+     .cover-object {
+      opacity: 0;
+     }
+  }
+  @include media( tablet-down ){
+     height: inherit;
+   }
+}
+
+.file-img {
+   max-width: 60%;
+   margin: 0 15%;
+   display: inline-block;
+}
+
+.content-box {
+   padding: 1rem;
+   margin: 1rem 0;
+   background: $color_white;
+   border: 1px solid map-get(map-get($colors_map, grey), lighter);
+   border-radius: $base_border_radius;
+   &:only-child {
+      margin: 0;
+   }
+}
+
+.rounded-img {
+   border-radius: 50%;
+}
+
+//////////////////////////////////
+////////////////////////////////// Typoraphy
+//////////////////////////////////
+// font styles
+.font-line-through {
+   text-decoration: line-through;
+}
+
+.font-bold {
+   font-weight: bold;
+}
+
+.font-italic {
+   font-style: italic;
+}
+
+// font alignments
+.font-centered {
+   text-align: center;
+}
+
+.font-lefted {
+   text-align: left;
+}
+
+.font-righted {
+   text-align: right;
+}
+
+//float alignments
+.float-center {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+// font sizes
+@each $size_key,
+$size_val in $text_sizes {
+   .font-size-#{$size_key} {
+      font-size: $size_val!important;
+   }
+}
+
+// font colors
+@each $type, $colors in $colors_map {
+   @each $shade, $code in $colors {
+      .font-color-#{$type}-#{$shade} {
+         color: $code;
+      }
+   }
+}
+
+//////////////////////////////////
+////////////////////////////////// Helper classes
+//////////////////////////////////
+// backgrounds and borders
+@each $type,
+$colors in $colors_map {
+   @each $shade,
+   $code in $colors {
+      .bg-#{$type}-#{$shade} {
+         background: $code;
+      }
+   }
+}
+
+.bg {
+   &-light {
+      background: $color_light !important;
+   }
+   &-white {
+      background: $color_white !important;
+   }
+   &-gray {
+      background: $color_grey !important;
+   }
+   &-dark {
+      background: $color_dark !important;
+   }
+   &-black {
+      background: $color_black !important;
+   }
+}
+
+.float-left {
+   float: left;
+}
+
+.float-right {
+   float: right;
+}
+
+.clearfix {
+   zoom: 1;
+   &::before,
+   &::after {
+      content: "";
+      display: table;
+   }
+   &::after {
+      clear: both;
+   }
+}
+
+//////////////////////////////////
+////////////////////////////////// Media helpers
+//////////////////////////////////
+@each $media_name, $media_size in $medias_map {
+   .hide {
+      &\@#{$media_name} {
+         @include media (#{$media_name}-down) {
+            display: none !important;
+         }
+      }
+   }
+   .show {
+      &b\@#{$media_name} {
+         @include media (#{$media_name}-down) {
+            display: block;
+         }
+         @include media (#{$media_name}-up) {
+            display: none;
+         }
+      }
+      &f\@#{$media_name} {
+         @include media (#{$media_name}-down) {
+            display: flex;
+         }
+         @include media (#{$media_name}-up) {
+            display: none;
+         }
+      }
+   }
+}
+
+
+////////////////////
+//common helpers////
+///////////////////
+
+textarea {
+   resize: none;
+}
+
+.text-upper {
+   text-transform: uppercase;
+}
+
+.text-lower {
+   text-transform: lowercase;
+}
+
+.text-capital {
+   text-transform: capitalize;
+}
+
+.no-gutter {
+   padding: 0 !important;
+   &-px{
+      padding: 1px !important;
+   }
+   &-vertical {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      @each $media_name, $media_size in $medias_map{
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               padding-top: 0 !important;
+               padding-bottom: 0 !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  padding-top: 0;
+                  padding-bottom: 0 !important;
+               }
+            }
+         }
+      }
+   }
+   &-horizontal {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               padding-left: 0 !important;
+               padding-right: 0 !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  padding-left: 0 !important;
+                  padding-right: 0 !important;
+               }
+            }
+         }
+      }
+   }
+   &-top {
+      padding-top: 0 !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               padding-top: 0 !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  padding-top: 0 !important;
+               }
+            }
+         }
+      }
+   }
+   &-bottom {
+      padding-bottom: 0 !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               padding-bottom: 0 !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  padding-bottom: 0 !important;
+               }
+            }
+         }
+      }
+   }
+   @each $media_name, $media_size in $medias_map {
+      &\@#{$media_name} {
+         @include media (#{$media_name}-down) {
+            padding: 0 !important;
+         }
+         &-up {
+            @include media (#{$media_name}-up) {
+               padding: 0 !important;
+            }
+         }
+      }
+   }
+}
+
+.gutter {
+   padding: .5rem !important;
+   &-vertical {
+      padding-top: .5rem !important;
+      padding-bottom: .5rem !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               padding-top: .5rem !important;
+               padding-bottom: .5rem !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  padding-top: .5rem !important;
+                  padding-bottom: .5rem !important;
+               }
+            }
+         }
+      }
+   }
+   &-horizontal {
+      padding-left: .5rem !important;
+      padding-right: .5rem !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               padding-left: .5rem !important;
+               padding-right: .5rem !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  padding-left: .5rem !important;
+                  padding-right: .5rem !important;
+               }
+            }
+         }
+      }
+   }
+   &-top {
+		padding-top: .5rem !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               padding-top: .5rem !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  padding-top: .5rem !important;
+               }
+            }
+         }
+      }
+   }
+   &-bottom {
+      padding-bottom: .5rem !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               padding-bottom: .5rem !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  padding-bottom: .5rem !important;
+               }
+            }
+         }
+      }
+   }
+   @each $media_name, $media_size in $medias_map {
+      &\@#{$media_name} {
+         @include media (#{$media_name}-down) {
+            padding: .5rem !important;
+         }
+         &-up {
+            @include media (#{$media_name}-up) {
+               padding: .5rem !important;
+            }
+         }
+      }
+   }
+}
+
+.no-margin {
+   margin: 0 !important;
+   &-vertical {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               margin-top: 0 !important;
+               margin-bottom: 0 !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  margin-top: 0;
+                  margin-bottom: 0 !important;
+               }
+            }
+         }
+      }
+   }
+   &-horizontal {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               margin-left: 0 !important;
+               margin-right: 0 !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  margin-left: 0 !important;
+                  margin-right: 0 !important;
+               }
+            }
+         }
+      }
+   }
+   &-top {
+      margin-top: 0 !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               margin-top: 0 !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  margin-top: 0 !important;
+               }
+            }
+         }
+      }
+   }
+   &-bottom {
+      margin-bottom: 0 !important;
+      @each $media_name, $media_size in $medias_map {
+         &\@#{$media_name} {
+            @include media (#{$media_name}-down) {
+               margin-bottom: 0 !important;
+            }
+            &-up {
+               @include media (#{$media_name}-up) {
+                  margin-bottom: 0 !important;
+               }
+            }
+         }
+      }
+   }
+   @each $media_name, $media_size in $medias_map {
+      &\@#{$media_name} {
+         @include media (#{$media_name}-down) {
+            margin: 0 !important;
+         }
+         &-up {
+            @include media (#{$media_name}-up) {
+               margin: 0 !important;
+            }
+         }
+      }
+   }
+}
+
+.no-radius {
+   border-radius: 0;
+}
+
+.no-border {
+   border: 0;
+}
+
+.click-handler {
+   z-index: 5;
+   @extend .icon-elem;
+   @extend .icon-elem--chevron_down;
+   @include rotate-x(0);
+}
+
+.flex {
+   display: flex;
+   &-col {
+      @extend .flex;
+      flex-direction: column;
+      &-reverse {
+         @extend .flex-col;
+         flex-direction: column-reverse;
+      }
+      &-middle {
+         @extend .flex-col;
+         @extend .flex-middle;
+      }
+   }
+   &-row {
+      @extend .flex;
+      flex-direction: row;
+      &-reverse {
+         @extend .flex-row;
+         flex-direction: row-reverse;
+      }
+   }
+   &-middle {
+      @extend .flex;
+      align-items: center;
+   }
+   &-top {
+      @extend .flex;
+      align-items: flex-start;
+   }
+   &-bottom {
+      @extend .flex;
+      align-items: flex-end;
+   }
+   &-center {
+      @extend .flex;
+      justify-content: center;
+      text-align: center;
+   }
+   &-left {
+      @extend .flex;
+      justify-content: flex-start;
+   }
+   &-right {
+      @extend .flex;
+      justify-content: flex-end;
+   }
+   &-space-arnd {
+      @extend .flex;
+      justify-content: space-around;
+   }
+   &-space-btwn {
+      @extend .flex;
+      justify-content: space-between;
+   }
+}
+
+.more-footer{
+	margin: 2rem 0 0;
+}

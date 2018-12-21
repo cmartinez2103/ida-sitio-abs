@@ -1,0 +1,152 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+         <div class="row">
+            <div class="gr-2 gr-6@tablet gr-12@phablet hide@tablet" data-area-name="desktop-sidebar">
+               <div data-desktop-area="desktop-sidebar" data-mobile-area="mobile-sidebar" data-mutable="tablet-down">
+                  <!--#include virtual="/partials/sidebar/sidebar.shtml" -->
+               </div>
+            </div>
+            <div class="gr-9 gr-10@medium gr-12@tablet prefix-1 prefix-0@medium">
+               <div class="horizon__intro horizon__form">
+      				<h2 class="horizon__title horizon__title--page">Profesores Jefes</h2>
+                  <div class="form-filtro">
+                     <form action="">
+                        <label for="contacto-sede" class="form-control__label">Filtrar por:</label>
+                        <select class="form-control__field form-control__field--select" name="">
+                           <option value="">Seleccione una sede</option>
+                           <option value="template-portada-sedes.shtml"><a href="template-page-horarios.shtml">Sede First</a></option>
+                           <option value=""><a href="">Sede Primary</a></option>
+                           <option value=""><a href="">Sede Santa Irene</a></option>
+                           <option value=""><a href="">Sede Alcahue</a></option>
+                           <option value=""><a href="">Sede Central</a></option>
+                        </select>
+                     </form>
+                  </div>
+      			</div>
+               <h3 class="horizon__title--subtitle">Primero</h3>
+               <div class="row">
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+
+               <h3 class="horizon__title--subtitle">Segundo</h3>
+               <div class="row">
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="gr-3 gr-6@tablet">
+                     <article class="box box--person">
+                        <div class="box__figure">
+                           <img src="http://unsplash.it/320/320" class="cover-img" alt="title" />
+                        </div>
+                        <div class="box__body">
+                           <h6 class="box__title">Paola Maureira</h6>
+                           <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                           <span class="box__excerpt">Primero A, jordana tarde</span>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+
+            <div class="gr-12@small gr-12@tablet showb@tablet" data-area-name="mobile-sidebar"></div>
+
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

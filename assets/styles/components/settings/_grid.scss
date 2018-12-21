@@ -1,0 +1,25 @@
+///////////////
+////CSS GRID//
+///////////////
+$inverted_cols: (12,11,10,9,8,7,6,5,4,3,2,1);
+
+@supports(display: grid) {
+	.grid {
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-gap: 1rem;
+	}
+	@each $col in $inverted_cols {
+		.grid-#{$col} {
+			@extend .grid;
+			grid-template-columns: repeat(#{$col}, 1fr);
+			@each $media_name, $media_size in $medias_map {
+				&\@#{$media_name} {
+					@include media (#{$media_name}-down) {
+						grid-template-columns: repeat(#{$col}, 1fr);
+					}
+				}
+			}
+		}
+	}
+}

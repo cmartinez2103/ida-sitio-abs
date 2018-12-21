@@ -1,0 +1,46 @@
+<footer class="footer-bar">
+	<div class="container">
+		<div class="row">
+			<div class="gr-3 gr-12@medium margin-bottom@medium">
+				<figure class="footer-bar__brand">
+					<a href="#" title="Ir a "><img src="dist/img/logos/logo-american-british-school-white.svg" alt="" class="elastic-img"></a>
+				</figure>
+			</div>
+			<div class="gr-2 gr-4@medium gr-12@tablet no-padding--vertical gutter@tablet">
+				<a href="#" title="title" class="footer-bar__link">Quiénes Somos</a>
+				<a href="#" title="title" class="footer-bar__link">Nuestros Proyectos</a>
+				<a href="#" title="title" class="footer-bar__link">Vida escolar</a>
+				<a href="#" title="title" class="footer-bar__link">Actividad Extraprogramáticas</a>
+				<a href="#" title="title" class="footer-bar__link">Admisión</a>
+				<a href="#" title="title" class="footer-bar__link">Contacto</a>
+			</div>
+			<div class="gr-3 gr-4@medium gr-12@tablet prefix-1 prefix-0@medium no-padding--vertical gutter@tablet footer-bar__secondary">
+				<h4 class="footer-bar__title">
+					<a href="#">Nuestras Sedes</a>
+				</h4>
+				<a href="#" title="title" class="footer-bar__link opacity">Firts</a>
+				<a href="#" title="title" class="footer-bar__link opacity">Primary</a>
+				<a href="#" title="title" class="footer-bar__link opacity">Santa Irene</a>
+				<a href="#" title="title" class="footer-bar__link opacity">Alicahue</a>
+				<a href="#" title="title" class="footer-bar__link opacity">Central</a>
+			</div>
+			<div class="gr-3 gr-4@medium gr-12@tablet no-padding--vertical gutter@tablet">
+				<div class="border">
+					<a href="#" title="title" class="footer-bar__link opacity">Información para apoderados</a>
+					<a href="#" title="title" class="footer-bar__link opacity">Aula Virtual</a>
+					<a href="#" title="title" class="footer-bar__link opacity">Portal RRHH</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="gr-12 footer-bar__social flex-center">
+			<p class="social-link--title">Síganos en:</p>
+			<a href="" class="social-link social-link--twitter">@ABS_School</a>
+			<a href="" class="social-link social-link--youtube">ABS School Oficial</a>
+	</div>
+</footer>
+<!--#include virtual="_indice-sitio.shtml" -->
+<script src="dist/js/main.min.js"></script>
+</body>
+
+</html>

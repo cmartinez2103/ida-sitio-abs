@@ -1,0 +1,25 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <section class="horizon--inner">
+		<div class="container">
+         <div class="row">
+            <div class="gr-8 gr-12@medium">
+               <div class="horizon__intro">
+      				<h2 class="horizon__title horizon__title--inner">Contacto</h2>
+                  <div class="horizon__excerpt">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+      			</div>
+               <!--#include virtual="/partials/forms/formulario-contacto.shtml" -->
+            </div>
+            <aside class="gr-4 gr-12@medium">
+               <!--#include virtual="/partials/sidebar/sidebar-action.shtml" -->
+               <!--#include virtual="/partials/sidebar/sidebar-contacto-sedes.shtml" -->
+            </aside>
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

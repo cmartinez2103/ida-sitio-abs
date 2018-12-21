@@ -1,0 +1,324 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <!--#include virtual="/partials/breadcrumb.shtml" -->
+   <!--#include virtual="/partials/header-portada.shtml" -->
+
+   <section class="horizon">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Noticias First</h2>
+				<a href="#" class="link link--more rigth big hide@tablet">ver más</a>
+			</div>
+			<div class="row">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/557/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>Seded First</p><p>Fotos Oficianles</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/557/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>American British</p><p>Evento Anual</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/557/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>Sede</p><p>Subcategoría</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+   <section class="horizon bg bg-light">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Galería de fotos First</h2>
+				<a href="#" class="link link--more rigth big hide@tablet">ver más</a>
+			</div>
+			<div class="row">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post box--inversed type--gallery">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>Seded First</p><p>Fotos Oficianles</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post box--inversed type--gallery">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>American British</p><p>Evento Anual</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post box--inversed type--gallery">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>Sede</p><p>Subcategoría</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+   <section class="horizon">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Videos First</h2>
+				<a href="#" class="link link--more rigth big hide@tablet">ver más</a>
+			</div>
+			<div class="row">
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post type--video">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>Seded First</p><p>Fotos Oficianles</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post type--video">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>American British</p><p>Evento Anual</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+				<div class="gr-4 gr-6@tablet gr-12@phablet">
+					<article class="box box--post type--video">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/327/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p>Sede</p><p>Subcategoría</p>
+							</div>
+							<h4 class="box__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
+							<span class="box__date">11 de Agosto 2018</span>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+   <section class="horizon bg bg-light">
+		<div class="container">
+         <div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Horarios y departamentos</h2>
+			</div>
+			<div class="box--row box--flex">
+            <div class="col-box">
+               <article class="box box--fancy center">
+   					<figure class="box__figure">
+   						<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+   					</figure>
+   					<div class="box__body">
+   						<h4 class="box__title">Horario cursos</h4>
+   					</div>
+   				</article>
+            </div>
+   			<div class="col-box">
+   				<article class="box box--fancy center">
+   					<figure class="box__figure">
+   						<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+   					</figure>
+   					<div class="box__body">
+   						<h4 class="box__title">Atención a apoderados</h4>
+   					</div>
+   				</article>
+            </div>
+   			<div class="col-box">
+   				<article class="box box--fancy center">
+   					<figure class="box__figure">
+   						<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+   					</figure>
+   					<div class="box__body">
+   						<h4 class="box__title">Calendario anual</h4>
+   					</div>
+   				</article>
+            </div>
+            <div class="col-box">
+   				<article class="box box--fancy center">
+   					<figure class="box__figure">
+   						<img src="http://unsplash.it/368/287/" class="cover-img" alt="title" />
+   					</figure>
+   					<div class="box__body">
+   						<h4 class="box__title">Departamentos</h4>
+   					</div>
+   				</article>
+            </div>
+			</div>
+		</div>
+	</section>
+
+   <section class="horizon">
+		<div class="container">
+			<div class="horizon__intro horizon__intro--center">
+				<h2 class="horizon__title">Profesores First</h2>
+            <a href="#" class="link link--more rigth big hide@tablet">ver más</a>
+			</div>
+			<div class="carousel carousel--index" data-module="carousel" data-maxitems="5" data-mqitems="1024px,5|800px,3|640px,1" data-slide="true">
+				<div class="carousel__items-holder">
+					<div class="carousel__items" data-role="carousel-list">
+
+                  <div class="carousel__slide" data-role="carousel-slide">
+							<figure class="carousel__slide__figure">
+                        <img src="http://unsplash.it/600/600" class="cover-img" alt="title" />
+                     </figure>
+							<div class="carousel__slide__body">
+								<h6 class="box__title">Paola Maureira</h6>
+                        <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                        <span class="box__excerpt">Primero A, jordana tarde</span>
+							</div>
+						</div>
+
+                  <div class="carousel__slide" data-role="carousel-slide">
+							<figure class="carousel__slide__figure">
+                        <img src="http://unsplash.it/600/600" class="cover-img" alt="title" />
+                     </figure>
+							<div class="carousel__slide__body">
+								<h6 class="box__title">Paola Maureira</h6>
+                        <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                        <span class="box__excerpt">Primero A, jordana tarde</span>
+							</div>
+						</div>
+                  <div class="carousel__slide" data-role="carousel-slide">
+							<figure class="carousel__slide__figure">
+                        <img src="http://unsplash.it/600/600" class="cover-img" alt="title" />
+                     </figure>
+							<div class="carousel__slide__body">
+								<h6 class="box__title">Paola Maureira</h6>
+                        <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                        <span class="box__excerpt">Primero A, jordana tarde</span>
+							</div>
+						</div>
+                  <div class="carousel__slide" data-role="carousel-slide">
+							<figure class="carousel__slide__figure">
+                        <img src="http://unsplash.it/600/600" class="cover-img" alt="title" />
+                     </figure>
+							<div class="carousel__slide__body">
+								<h6 class="box__title">Paola Maureira</h6>
+                        <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                        <span class="box__excerpt">Primero A, jordana tarde</span>
+							</div>
+						</div><div class="carousel__slide" data-role="carousel-slide">
+							<figure class="carousel__slide__figure">
+                        <img src="http://unsplash.it/600/600" class="cover-img" alt="title" />
+                     </figure>
+							<div class="carousel__slide__body">
+								<h6 class="box__title">Paola Maureira</h6>
+                        <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                        <span class="box__excerpt">Primero A, jordana tarde</span>
+							</div>
+						</div><div class="carousel__slide" data-role="carousel-slide">
+							<figure class="carousel__slide__figure">
+                        <img src="http://unsplash.it/600/600" class="cover-img" alt="title" />
+                     </figure>
+							<div class="carousel__slide__body">
+								<h6 class="box__title">Paola Maureira</h6>
+                        <p class="box__email"><a href="mailto:p.maureira@gmail.com">p.maureira@gmail.com</a></p>
+                        <span class="box__excerpt">Primero A, jordana tarde</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel__arrows">
+					<button class="carousel__arrow carousel__arrow--prev" data-role="carousel-arrow" data-direction="prev"></button>
+					<button class="carousel__arrow carousel__arrow--next" data-role="carousel-arrow" data-direction="next"></button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+   <section class="horizon">
+      <div class="container--slider">
+         <div class="row bg-light" data-equalize="target" data-mq="tablet-down" data-eq-target=".box">
+				<div class="gr-6 gr-12@small no-gutter">
+               <article class="box box--info bg-light">
+                  <div class="box__body">
+                     <h2 class="box__title big">CONTÁCTANOS</h2>
+                     <ul class="list__data">
+                        <li class="list__icon email"><a href="mailto:santairene@americanbritish.cl">santairene@americanbritish.cl</a></li>
+                        <li class="list__icon phone"><a href="tel:227101622">2 2710 1622 - 2 2710 16 23</a></li>
+                        <li class="list__icon place"><a href="">Diagonal Santa Irene nº 2952</a></li>
+                     </ul>
+                  </div>
+               </article>
+            </div>
+            <div class="gr-6 gr-12@small no-gutter">
+               <article class="box box--info flex-center bg-gray">
+                  <div class="box__body">
+                     <h2 class="box__title big">¿TIENES DUDAS?</h2>
+                     <div class="box__excerpt small">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                     </div>
+                     <a href="" class="button button--main  button--more">Ir a información de contacto</a>
+                  </div>
+               </article>
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->
